@@ -1,4 +1,4 @@
-SERVER_1	= "Arlekin"
+SERVER_1	= "Arlekin Online"
 SERVER_IP	= "87.229.115.132"
 CH_1_NAME	= "CH 1"
 CH_2_NAME	= "CH 2"
