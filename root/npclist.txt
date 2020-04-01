@@ -1230,6 +1230,13 @@
 9010	goods_02
 9011	bank_02
 9012	oldster
+9013	ace_traderin
+9014	ace_nala
+9015	ace_markler
+9016	ace_master
+9017	ace_guildgirl2
+9018	ace_guildboy
+9019	ace_orktrader
 10001	warp
 10002	warp
 10003	warp

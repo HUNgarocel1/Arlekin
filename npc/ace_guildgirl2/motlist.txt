@@ -1,0 +1,7 @@
+GENERAL WAIT aktwait.msa 10
+GENERAL WAIT1 social.msa 10
+GENERAL WAIT2 spwait.msa 10
+GENERAL WAIT3 spwait2.msa 10
+GENERAL WAIT4 wait.msa 40
+GENEREAL WAIT5 waithand.msa 10
+GENERAL WAIT6 walk.msa 10
