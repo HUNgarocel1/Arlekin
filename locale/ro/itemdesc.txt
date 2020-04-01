@@ -2403,4 +2403,4 @@
 90010	Alapkõ	Építõanyag a Céhépülethez
 90011	Törzs	Építõanyag a Céhépülethez.
 90012	Furnérlemez	Építõanyag a Céhépülethez.
-90013		
+55006	A legendás házikedvenc könyve a 4. evolvációhoz.		
