@@ -1,0 +1,578 @@
+ID_ACCOUNT	Felhasználónév
+PW_ACCOUNT	Jelszó
+UPGRADE	Folyamatos fejlesztés.
+LOGIN_ACCOUNT_EMPTY	Ingyenes
+LOGIN_ACCOUNT_DELETE	Fiókját sikeresen töröltük.
+LOGIN_ACCOUNT_D_S	Fiók törléséhez el kell mentenie egyet.
+LOGIN_ACCOUNT_N_S	Még nincs mentett fiókja.
+LOGIN_ACCOUNT_N_S_D	Fiókjának mentéséhez fel kell nyitnia egy nyílást.
+LOGIN_ACCOUNT_SAVE	Írja be a fiók adatait a fiók mentéséhez.
+LOGIN_ACCOUNT_SAVED	A fiók sikeresen mentésre került.
+LOGIN_ACCOUNT_LOAD	Feltöltés
+LOGIN_ACCOUNT_REGISTER	Regisztráljon most!
+LOGIN_ACCOUNT_FORGOT_PASS	Elfelejtettem a jelszavam.
+CREATE_SHAPE1	Megjelenés 1
+CREATE_SHAPE2	Megjelenés 2
+BANNER_ATTENDANCE_BUTTON	Esemény a fõnökök fonója
+ATTENDANCE_TITLE	Esemény a fõnökök fonója
+BANNER_FISH_BUTTON	HAL HAL
+MINIGAME_FISH_EVENT_USE_COUNT	Mennyiség
+MINI_GAME_FISH_HELP_TEXT	Segítség
+MINI_GAME_FISH_START_TEXT	Start
+MINI_GAME_FISH_TITLE	Halászati kirakós játék
+CURRENT_POINT	Pontszám: %d
+RESTART_IMMEDIATE	Indítsa újra azonnal
+BATTLE_FIELD_INFO	Háborús övezet
+BATTLE_FIELD_OPERATION_TIME	A háborús övezetbe beléphet %s:00 és %s:00.
+BATTLE_FIELD_OPERATION_TIME_ALL	Jelenleg a bejárat nyitva van.
+BATTLE_FIELD_OPERATION_TIME_END	A harc zóna még %s óráig nyitva van.
+BATTLE_FIELD_OPERATION_TIME_NA	Abban a pillanatban, hogy a neveket lezárták.
+BATTLE_FIELD_OPERATION_TIME_OPEN	A harc zóna %s óra múlva elérhetõ! %s óráig.
+BATTLE_FILED_RANK	Rank
+BATTLE_FILED_RANK_EMPIRE	Birodalom
+BATTLE_FILED_RANK_NAME	Név
+BATTLE_FILED_RANK_POINT	Pont
+ENTER_BATTLE_FIELD	Enter
+EXIT_BATTLE_FIELD	Tényleg el akarja hagyni a Harci Zónát??
+EXIT_BATTLE_FIELD_ON_DEAD	%d ponttal kívánja elhagyni a harci zónát ?
+DUNGEON_INFO	Dungeon információ
+DUNGEON_INFO_TYPE	Tip:
+DUNGEON_INFO_ORGANIZATION	Szervezet:
+DUNGEON_INFO_LEVEL_LIMIT	Szinthatár:
+DUNGEON_INFO_PARTY_MEMBERS	Csoport tagjai:
+DUNGEON_INFO_COOLDOWN	Várakozási idõ:
+DUNGEON_INFO_DURATION	Tartam:
+DUNGEON_INFO_ENTRANCE	Belépés:
+DUNGEON_INFO_STRENGTH	Erõteljes imp:
+DUNGEON_INFO_RESISTANCE	Ellenállás:
+DUNGEON_INFO_TOTAL_FINISHED	Befejezett:
+DUNGEON_INFO_FASTEST_TIME	Gyorsabb idõ:
+DUNGEON_INFO_HIGHEST_DAMAGE	Nagyobb kár a végsõ fõnöknek:
+DUNGEON_INFO_TELEPORT	Teleport
+DUNGEON_INFO_CLOSE	Közel
+DUNGEON_INFO_PERSONAL_STATS	Eredményeim
+DUNGEON_INFO_DUNGEON	Dungeon
+DUNGEON_RANKING	Értékelés
+DUNGEON_RANKING_POSITION	Rangsor
+DUNGEON_RANKING_NAME	Név
+DUNGEON_RANKING_LEVEL	Szint
+DUNGEON_RANKING_POINTS	Rangpont
+DUNGEON_RANKING_TYPE1	A rangsor kész
+DUNGEON_RANKING_TYPE2	Idõértékelések
+DUNGEON_RANKING_TYPE3	Kár besorolása
+DUNGEON_RANKING_POINT_TYPE1	Befejezett
+DUNGEON_RANKING_POINT_TYPE2	Min. idõ
+DUNGEON_RANKING_POINT_TYPE3	Max. idõ
+UPGRADE_STORAGE_TITLE	Különleges letét
+INVENTORY_MENUE_TITLE	Menü
+INVENTORY_MENUE_WINDWOW_TITLE	Választ
+INVENTORY_MENUE_NORMAL	Letét
+INVENTORY_MENUE_ITEMSHOP	Item-Shop
+INVENTORY_MENUE_GUILD	Átalakítási áruház
+OPTION_MOB_INFO	Mob info
+OPTION_MOB_INFO_AGGR	Agresszív
+OPTION_MOB_INFO_LEVEL	Szint
+TITLE_SYSTEM	Eredmények
+TITLE_SYSTEM_CHOOSE	Válasszon egy titulust:
+GUILD_DRAGONLAIR_RANKING	Rangsor
+GUILD_DRAGONLAIR_RANKING_COUNT	Hely
+GUILD_DRAGONLAIR_RANKING_MEMBER	Tagjai
+GUILD_DRAGONLAIR_RANKING_NAME	Céh
+GUILD_DRAGONLAIR_RANKING_TIME	Idõ
+SPECIAL_EFFECTS_TITLE	Speciális effektusok
+SHOP_SEARCH_TITLE	Üzlet keresés
+SHOP_SEARCH_CLEAR	Tiszta
+SHOP_SEARCH_BUTTON	Keresés
+SHOP_SEARCH_PRICE	Ár:
+SHOP_SEARCH_ENTER_ITEM_NAME	Írja be az tárgy nevét.
+SHOP_SEARCH_EMPTY_ITEM_NAME	Nem találtunk ilyen nevû tárgyat.
+DESTROY	Megsemmisít
+DROP_ITEM	El szeretné dobni ezt a tárgyat ?
+OPTION_SALESTEXT_RANGE	Bolt sugara
+SHOP_NAME	Bolt neve
+SHOP_TIMEOUT	Idõ
+SHOP_CREATE	Hozzon létre egy boltot
+SHOP_CREATE_PRICE	Ár: 
+SHOP_CREATE_HOURS	órák
+SHOP_CREATE_HOUR	óra
+SHOP_CREATE_DAY	nap
+SHOP_CREATE_DAYS	napok
+SHOP_CREATE_NORMAL	Normál üzlet
+SHOP_NAME_EMPTY	Írja be a bolt nevét.
+SHOP_TIMEOUT_EMPTY	Válassza ki az idõt.
+SHOP_WINDOW_NAME	Magazinele tale
+SHOP_WINDOW_CREATE	Az üzletek
+SHOP_GET_YANG	Yang visszavonása
+SHOP_CHANGE_NAME	Változtasd meg a nevet
+SHOP_ENTER_NEW_NAME	Írja be az új nevet.
+SHOP_CLOSE	Bezárja az üzletet
+SHOP_CLOSE_QUEST	Biztos benne, hogy bezárja az üzletet "%s"?
+SHOP_MANAGE	PANEL
+SHOP_OPEN	Hozzon létre egy boltot
+SHOP_EDIT	Szerkesztés
+SHOP_REMOVE_ITEM	Törlés
+SHOP_CHANGE_PRICE	Ár változtatás
+SHOP_EDIT_SHOP_WINDOW	Szerkesztés
+SHOP_EDIT_SHOP_CANCEL	Törlés
+SHOP_REMOVE_ITEM_QUEST	Kiszeretné venni az összes tárgyat?
+SHOP_SELECT	Választ
+SHOP_NOT_EARNED_YANG	SHOP_NOT_EARNED_YANG_HIBA
+SHOP_YANG_QUEST	SHOP_YANG_QUEST_HIBA
+SHOP_INFORMATION	Információk
+SHOP_EARNED_YANG	SHOP_EARNED_YANG_HIBA 
+SHOP_SOLD_ITEMS	Értékesített tárgyak: 
+SHOP_REST_ITEMS	Hátralévõ tárgyak: 
+SHOP_TIME_TO_CLOSE	Maradt idõ: 
+GIFT_WINDOW_NAME	Magán bolt
+GIFT_PREV_PAGE	vissza
+GIFT_NEXT_PAGE	elõre
+GIFT_FROM	
+GIFT_REASON	Indok
+GIFT_GET_ALL	Kivesz mindent
+GIFT_GET_QUEST	Biztos vagy benne, hogy vissza akar lépni "%s"?
+GIFT_GET_QUEST_ALL	Biztos benne, hogy mindent kivesz?
+GIFT_MONEY_DESC	Yang az offline áruházából gyûlt össze.
+SHOP_SELECT_TIME	Választ
+ACCEPT	Megerõsít
+ATTACH_METIN_INFO	Használni akarod a Szellemkövet?
+ATTACH_METIN_TITLE	Szellemkõ használata
+CANCEL	Megszakít
+CHANGE_PASSWORD_CONFIRM	Új jelszót megerõsít
+CHANGE_PASSWORD_NEW	Új jelszó
+CHANGE_PASSWORD_OLD	Régi jelszó
+CHANGE_PASSWORD_TITLE	Jelszó változtatás
+CHARACTER_ACTION	Érzelmek
+CHARACTER_EMOTICON	Érzelem
+CHARACTER_MAIN	Karakter
+CHARACTER_MUTUAL_ACTION	Interaktív Érzelmek
+CHARACTER_NORMAL_ACTION	Normál Érzelmek
+CHARACTER_QUEST	Küldetések
+CHARACTER_SKILL	Képesség
+CLOSE	Bezár
+COSTUME_TITLE	Viseletek
+COSTUME_WINDOW_TITLE	Viseletek
+CREATE_ATT_GRADE	Erõ
+CREATE_CREATE	Létrehoz
+CREATE_DEX_GRADE	ÜGY
+CREATE_HP	VIT
+CREATE_LAST_POINT	Pont
+CREATE_MAN	Férfi
+CREATE_NAME	Név
+CREATE_NEXT	Tovább
+CREATE_PREV	Vissza
+CREATE_SEX	Neme
+CREATE_SHAPE	Kinézet
+CREATE_SP	INT
+CREATE_STAT_RESET	Vissza
+CREATE_WOMAN	Asszony
+CUBE_INFO_TITLE	Finomítási kézikönyv
+CUBE_REQUIRE_MATERIAL	Szükséges anyagok
+CUBE_REQUIRE_MATERIAL_OR	vagy
+CUBE_TITLE	Nemesítési ablak
+DO_REFINE	Nemesít
+DRAGONSOUL_ACTIVATE	Aktiválás
+DRAGONSOUL_PAGE_BUTTON_1	Nyers
+DRAGONSOUL_PAGE_BUTTON_2	Metszett
+DRAGONSOUL_PAGE_BUTTON_3	Ritka
+DRAGONSOUL_PAGE_BUTTON_4	Antik
+DRAGONSOUL_PAGE_BUTTON_5	Legendás
+DRAGONSOUL_REFINE_WINDOW_TITLE	Nemesítési ablak
+DRAGONSOUL_TAP_TITLE_1	Sárkánygyémánt
+DRAGONSOUL_TAP_TITLE_2	Sárkányrubin
+DRAGONSOUL_TAP_TITLE_3	Sárkányjáde
+DRAGONSOUL_TAP_TITLE_4	Sárkányzafír
+DRAGONSOUL_TAP_TITLE_5	Sárkánygránát
+DRAGONSOUL_TAP_TITLE_6	Sárkányónix
+DRAGONSOUL_TITLE	Sárkánykõ-alkímia
+EMPIRE_EXIT	Bezár
+EMPIRE_NEXT	Tovább
+EMPIRE_PREV	Vissza
+EMPIRE_SELECT	Választani
+EXCHANGE_ACCEPT	Elfogad
+EXCHANGE_TITLE	Kereskedés
+GAMEOPTION_TITLE	Játék opciók
+GAME_EXIT_OBSERVER	Megfigyelõ módot befejezni
+GAME_HELP	Segítség
+GAME_QUEST	Feladat
+GAME_SKILL_UP	Képesség fejlesztés
+GAME_STAT_UP	Státusz emelés
+GRADE	Osztály
+GRADE_SELECT	Osztály
+GUILD_BASENAME	Bázisnév
+GUILD_BOARD_ID	Név
+GUILD_BOARD_REFRESH	Aktualizálás (F5)
+GUILD_BOARD_TEXT	Üzenet
+GUILD_BUILDING_CATEGORY_TITLE	Építõ darabok
+GUILD_BUILDING_CHANGE	Cserélni
+GUILD_BUILDING_DIRECTION	Irány
+GUILD_BUILDING_GRADE	Rang
+GUILD_BUILDING_INFO	Épület- és költséginformációk
+GUILD_BUILDING_LIST_TITLE	Épület lista
+GUILD_BUILDING_LOG	Tönk
+GUILD_BUILDING_NAME	Épület név
+GUILD_BUILDING_OPERATE	Kiszolgál
+GUILD_BUILDING_PLY	Furnér
+GUILD_BUILDING_POSITION	Fekvés
+GUILD_BUILDING_PREVIEW	Elõrejelzés
+GUILD_BUILDING_PRICE	Ár
+GUILD_BUILDING_REFRESH	Frissítés (F5)
+GUILD_BUILDING_STONE	Kõ
+GUILD_BUILDING_TITLE	Céhház építés
+GUILD_CRYSTAL	Kristály
+GUILD_DEPOSIT	Fizetni
+GUILD_DROP_RESOURCE1	itt
+GUILD_DROP_RESOURCE2	Erõforrás eldobás
+GUILD_GEM	Drágakõ
+GUILD_GRADE_CHANGE_GRADE_NAME	Új rang név
+GUILD_GRADE_NUM	Nr.
+GUILD_GRADE_PERMISSION_DELETE	Kirúg
+GUILD_GRADE_PERMISSION_JOIN	Meghív
+GUILD_GRADE_PERMISSION_NOTICE	Írás
+GUILD_GRADE_PERMISSION_SKILL	Képz.
+GUILD_GRADE_RANK	Rang
+GUILD_GRADE_WRITE	Írni
+GUILD_INFO	Céh információ
+GUILD_INFO_CUR_EXP	Tapasztalat
+GUILD_INFO_DECALRE_WAR	Hadat üzen
+GUILD_INFO_ENEMY_GUILD	Ellenséges céh
+GUILD_INFO_ENEMY_GUILD_EMPTY	Semennyi
+GUILD_INFO_LEVEL	Céh-szint
+GUILD_INFO_MARK	Céh jel
+GUILD_INFO_MASTER	Vezetõ
+GUILD_INFO_MASTER_VALUE	Vezetõ
+GUILD_INFO_MEMBER_AVG_LEVEL	Átlagos Szint
+GUILD_INFO_MEMBER_NUM	Tagok száma
+GUILD_INFO_NAME	Céh név
+GUILD_INFO_NAME_VALUE	Ez egy céh név
+GUILD_INFO_OFFER_EXP	Befektet.
+GUILD_INFO_REST_EXP	Szükséges tapasztalat
+GUILD_INFO_UPLOAD_MARK	Jel feltöltés
+GUILD_INFO_UPLOAD_SYMBOL	Zászló feltöltés
+GUILD_MARK	Céh jel
+GUILD_MEMBER_JOB	Kaszt
+GUILD_MEMBER_KNIGHT	Vezetõ
+GUILD_MEMBER_LEVEL	Szint
+GUILD_MEMBER_NAME	Név
+GUILD_MEMBER_RANK	Rang
+GUILD_MEMBER_SPECIFIC_GRAVITY	Befektet.
+GUILD_METIN_STONE	Metin kõ
+GUILD_MINENAL	Ásvány
+GUILD_MONEY	Yang
+GUILD_NAME	Céh
+GUILD_RESOURCE_INFO	Forrás információk
+GUILD_SKILL_ACTIVE	Aktív
+GUILD_SKIlL_HEAL_GSP	Feltölteni
+GUILD_SKILL_PASSIVE	Passzív
+GUILD_SKILL_POWER	Energia
+GUILD_SKILL_STATE	Céh képesség
+GUILD_SYMBOL	Céh zászló
+GUILD_WAR_ACCEPT	Céh hadüzenet elfogadása
+GUILD_WAR_BATTLE_TYPE	Harci mód
+GUILD_WAR_CTF	Zászló
+GUILD_WAR_DECLARE	Céh háborút kinyilvánít
+GUILD_WAR_ENEMY	Ellenség
+GUILD_WAR_NORMAL	Harcmezõ
+GUILD_WAR_WARP	Aréna
+GUILD_WATER	Víz
+GUILD_WATER_STONE	Aqua kõ
+GUILD_WITHDRAW	Kivon
+HELP_ATTACK_KEY	Támadás: bal egérgomb vagy szóköz billentyû
+HELP_CHANGE_PK_MODE	Támadási mód váltás: bal egérgomb beállítása
+HELP_CHARACTER_BUTTON1	(Karakter ablak, Leltár ablak,
+HELP_CHARACTER_BUTTON2	Barátlista és Beállítások)
+HELP_CONTROL_CAMERA_BY_MIDDLEBUTTON	Kameraállás: középsõ vagy jobb egérgomb
+HELP_CONTROL_CAMERA_BY_RIGHTBUTTON	Kameraállás: jobb vagy középsõ egérgomb
+HELP_EXP	Tapasztalat
+HELP_FURY	Játékbeli tárgy piac
+HELP_GUILD_WINDOW	Céh ablak megnyitása: Alt+G
+HELP_HELP	Segítség megmutatása: H
+HELP_HP	Életerõ (TP)
+HELP_MESSENGER_WINDOW	Barátlista megnyitása: Alt+M
+HELP_MOUSE_LEFT	Bal egérgomb funkció
+HELP_MOUSE_RIGHT	Jobb egérgomb funkció
+HELP_MOVE_KEY	Vezérlés: W, A, S, D, vagy nyíl billentyûk
+HELP_OPEN_CHARACTER	Karakter ablak megnyitása: C
+HELP_OPEN_CHAT	Cset ablak megnyitása: Enter
+HELP_OPEN_INVENTORY	Leltár ablak megnyitása: I
+HELP_OPEN_LOG	Cset-log megnyitása: L
+HELP_OPEN_MINIMAP	Mini térkép megnyitása: Shift + M
+HELP_OPEN_QUEST	Feladata ablak megnyitása: N
+HELP_OPEN_SKILL	Képesség ablak megnyitása: V
+HELP_OPEN_WHISPER	Suttogás ablak megnyitása: Shift + Enter
+HELP_OPEN_ZONEMAP	Nagy térkép megnyitása: M
+HELP_PICK_ITEM	Tárgyak összegyûjtése: ^ vagy Y billentyû, vagy bal egérgomb
+HELP_QUICKSLOT	Gyors elérési mezõk
+HELP_SCREEN_CAPTURE	Képernyõkép mentése: Nyomtatás (a "Metin2\screenshot" könyvtárban lesz elmentve egy fájlba)
+HELP_SHOW_ALL_NAME	Nevek megmutatása: Alt
+HELP_SP	Mana pontok (MP)
+HELP_SYSTEM_BUTTON	Rendszer billentyûk
+INVENTORY_PAGE_BUTTON_TOOLTIP_1	1. leltár
+INVENTORY_PAGE_BUTTON_TOOLTIP_2	2. leltár
+INVENTORY_PAGE_BUTTON_TOOLTIP_3	3. leltár
+INVENTORY_PAGE_BUTTON_TOOLTIP_4	4. leltár
+INVENTORY_TITLE	Leltár
+ITEM_MALL	Tárgy piac
+LOAD_ERROR	Az adatfájl megsérült. Installáld újra a klienst. Nyomd meg az ESC gombot.
+LOGIN_CONNECT	Csatlakozik
+LOGIN_CONNECTING	A szerverhez leszel kapcsolva.
+LOGIN_DEFAULT_SERVERADDR	Arlekin Online, Csatorna 1
+LOGIN_EXIT	Bezár
+LOGIN_REGION_TITLE	Számlakibocsátás helyszíne
+LOGIN_SELECT_BUTTON	Választ
+LOGIN_SELECT_EXIT	Bezár
+LOGIN_SELECT_OK	OK
+LOGIN_SELECT_TITLE	Szervert választ
+MALL_PASSWORD_TITLE	Jelszó
+MALL_TITLE	Tárgypiac raktár
+MARKET_TITLE	Betölt
+MARKLIST_REFRESH	Aktualizál
+MARKLIST_TITLE	Céh jelet regisztrál
+MESSAGE	Ez egy üzenet
+MESSENGER_ADD_FRIEND	Barát hozzáadása
+MESSENGER_DELETE_FRIEND	Barát törlése
+MESSENGER_MOBILE	SMS küldés
+MESSENGER_OPEN_GUILD	Céh ablak nyitás
+MESSENGER_TITLE	Barát
+MESSENGER_USE_GUILD_MOVE_SKILL	Használd a céh mozgatókészséget
+MESSENGER_WHISPER	Súgó
+MINIMIZE	Minimalizál
+MINI_GAME_RUMI_DISCARD_TEXT	Biztonsági mód
+MINI_GAME_RUMI_EXIT	Vége
+MINI_GAME_RUMI_LBUTTON_DESC	Bal egér a kártya hozzáadásához
+MINI_GAME_RUMI_RBUTTON_DESC	Jobb egér a kártya törléséhez
+MINI_GAME_RUMI_SCORE	Pontszám
+MINI_GAME_RUMI_START_TEXT	Kezdés
+MINI_GAME_RUMI_TITLE	Arlekin Online Okey kártyajáték
+MOUSEBUTTON_ATTACK	Támad
+MOUSEBUTTON_AUTO_ATTACK	Automatikus támadás
+MOUSEBUTTON_CAMERA	Kamera
+MOUSEBUTTON_SKILL	Készség
+MUSICLIST_TITLE	Zene választás
+NO	Nem
+OK	OK
+OPTION_ALWAYS_SHOW_NAME	Név
+OPTION_ALWAYS_SHOW_NAME_OFF	korlátozott
+OPTION_ALWAYS_SHOW_NAME_ON	Mindig
+OPTION_BLOCK	Letilt
+OPTION_BLOCK_EXCHANGE	Kereskedik
+OPTION_BLOCK_FRIEND	Barátok
+OPTION_BLOCK_GUILD	Céh
+OPTION_BLOCK_PARTY	Csoport
+OPTION_BLOCK_PARTY_REQUEST	Kérés
+OPTION_BLOCK_WHISPER	Súgni
+OPTION_CAMERA_DISTANCE	Kamera
+OPTION_CAMERA_DISTANCE_LONG	Távoli
+OPTION_CAMERA_DISTANCE_SHORT	Közeli
+OPTION_DELETE_MOBILE_BUTTON	Telefonszám törlés
+OPTION_EFFECT	Találati info.
+OPTION_FOG	Köd
+OPTION_FOG_DENSE	Sok
+OPTION_FOG_LIGHT	Kevés
+OPTION_FOG_MIDDLE	Közepes
+OPTION_INPUT_MOBILE_BUTTON	Mobiltelefonszám megadása
+OPTION_MOBILE	Mobiltelefon
+OPTION_MUSIC	Zene
+OPTION_MUSIC_CHANGE	Zenék
+OPTION_MUSIC_DEFAULT_THEMA	Metin2 alap zene
+OPTION_NAME_COLOR	Szín név
+OPTION_NAME_COLOR_EMPIRE	Birod. Szín
+OPTION_NAME_COLOR_NORMAL	Nomális
+OPTION_NIGHT_MODE	Éjszaka
+OPTION_NIGHT_MODE_OFF	Ki
+OPTION_NIGHT_MODE_ON	Be
+OPTION_PVPMODE	PvP Mód
+OPTION_PVPMODE_FREE	Szabad
+OPTION_PVPMODE_FREE_TOOLTIP	Minden játékost megtámadhastz.
+OPTION_PVPMODE_GUILD	Céh
+OPTION_PVPMODE_GUILD_TOOLTIP	Céhtagokat kivéve minden játékost megtámadhatsz.
+OPTION_PVPMODE_PEACE	Béke
+OPTION_PVPMODE_PEACE_TOOLTIP	Nem támadhatod meg a saját birodalmad játékosait.
+OPTION_PVPMODE_REVENGE	Ellenség
+OPTION_PVPMODE_REVENGE_TOOLTIP	Csak eltérõ világképû játékost támadhatsz meg.
+OPTION_SALESTEXT	Bolt név
+OPTION_SALESTEXT_VIEW_OFF	kitakarni
+OPTION_SALESTEXT_VIEW_ON	eltakarni
+OPTION_SNOW_MODE	Hó
+OPTION_SNOW_MODE_OFF	Ki
+OPTION_SNOW_MODE_ON	Be
+OPTION_SNOW_TEXTURE_MODE	Havas map
+OPTION_SNOW_TEXTURE_MODE_OFF	Ki
+OPTION_SNOW_TEXTURE_MODE_ON	Be
+OPTION_SOUND	Hatás
+OPTION_TARGET_BOARD	Cél menü
+OPTION_TARGET_BOARD_NO_VIEW	Bezár
+OPTION_TARGET_BOARD_VIEW	Megmutat
+OPTION_TILING	Grafika
+OPTION_TILING_APPLY	Felhasznál
+OPTION_TILING_CPU	CPU
+OPTION_TILING_GPU	GPU
+OPTION_TITLE	Opciók
+OPTION_VIEW_CHAT	Cset sor
+OPTION_VIEW_CHAT_OFF	kitakarni
+OPTION_VIEW_CHAT_ON	eltakarni
+PARTY_MEMBER_INFO_NAME	Csoporttárs neve
+PASSWORD_DESC_1	Írd be a jelszavad
+PASSWORD_DESC_2	a raktár megnyitásához.
+PASSWORD_DESC_3	Megváltoztattad már a jelszavad?
+PASSWORD_DESC_4	Ha még nem, a jelszavad "000000" lesz.
+PASSWORD_DESC_5	Változtasd meg a jelszavad a raktárban.
+PASSWORD_TITLE	Jelszó mentés
+PICK_MONEY_TITLE	Feloszt
+PRIVATE_SHOP_CLOSE_BUTTON	Bolt zárás
+PRIVATE_SHOP_NAME	Bolt neve
+PRIVATE_SHOP_TITLE	Magán bolt nyitás
+REFINE_COST	Javítási költségek: 0 Yang
+REFINE_MONEY	Nemesítési díj
+REFINE_SELECT	Nemesítés
+REFINE_TTILE	Javítások
+REPORT_VIOLENT_WHISPER	
+RESTART_HERE	Újraindít itt
+RESTART_TOWN	Újraindít a városban
+SAFE_CHANGE_PASSWORD	Jelszó változtatás
+SAFE_TITLE	Tárolóhely
+SELECT_ATT_GRADE	ERÕ
+SELECT_CREATE	Létrehoz
+SELECT_DELETE	Töröl
+SELECT_DEX_GRADE	ÜGY
+SELECT_EMPIRE_NAME	Birodalom neve
+SELECT_EXIT	Bezár
+SELECT_HP	VIT
+SELECT_LEVEL	Szint
+SELECT_METIN_STONE_TITLE	Szellemkõ választás
+SELECT_NAME	Név
+SELECT_NO_GUILD	Nincs céh
+SELECT_YES_GUILD	Céh neve: %s
+SELECT_PLAYTIME	Játékidõ (perc)
+SELECT_SELECT	Start
+SELECT_SP	INT
+SELECT_TITLE	Cím választás
+SHOP_BUY	Vásárol
+SHOP_SELL	Elad
+SHOP_TITLE	Bolt
+SKILL_SUPPORT_TITLE	Standard készségek
+STEP	Tisztasági minõség
+STEP_SELECT	Tisztasági minõség
+STRENGTH	Erõsítés
+STRENGTH_SELECT	Szint
+SYSTEMOPTION_TITLE	Rendszer opciók
+SYSTEM_CHANGE	Karakter csere
+SYSTEM_EXIT	Játék befejezés
+SYSTEM_HELP	Segítség
+SYSTEM_LOGOUT	Kilépés
+SYSTEM_MALL	Tárgy piac
+SYSTEM_MOVE_CHANNEL	CH váltása
+SYSTEM_OPTION	Rendszer opciók
+TASKBAR_CHARACTER	Karakter [C/V/B/N]
+TASKBAR_CHAT	Cset ablak [Enter]
+TASKBAR_DISABLE	Kikapcsolva
+TASKBAR_DRAGON_SOUL	Sárkánykõ-alkímia
+TASKBAR_EXPAND	Meghosszabbítás
+TASKBAR_INVENTORY	Leltár [I]
+TASKBAR_MESSENGER	Barátok [Alt+M]
+TASKBAR_NEXT_QUICKSLOT	Következõ gyors elérésû mezõ [Shift+Szám, Alt]
+TASKBAR_PREV_QUICKSLOT	Elõzõ gyors elérésû mezõ [Shift+Szám]
+TASKBAR_SYSTEM	Opciók [ESC]
+WHISPER_BAN	Letiltás
+WHISPER_NAME	Suttogás
+WHISPER_REPORT	
+WHISPER_SEND	Küld
+YES	Igen
+ZONE_MAP	Nagy térkép
+ACCE_ABSORB	Kombináció bónusz
+ACCE_COMBINE	Kombináció
+ACCE_MAIN	Pánt 1
+ACCE_RESULT	Eredmény
+ACCE_SERVE	Pánt 2
+OPTION_MOB_INFO	Szörny információ
+OPTION_MOB_INFO_AGGR	Agresszív
+OPTION_MOB_INFO_LEVEL	Szint
+MESSENGER_ADD_FRIEND	Barát hozzáadása
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_1	%s barátként fogadott el téged.
+MESSENGER_DO_YOU_ACCEPT_ADD_FRIEND_2	Elfogad?
+MESSENGER_DO_YOU_DELETE	Törlés?
+MESSENGER_DO_YOU_DELETE_PHONE_NUMBER	Törli a mobilszámát?
+MESSENGER_DO_YOU_MOVE	Menni szeretnél?
+MESSENGER_EMPTY_LIST	Üres lista
+MESSENGER_FAMILY	Család
+MESSENGER_FRIEND	Barát
+MESSENGER_GUILD	Céh
+MESSENGER_INPUT_MOBILE_AUTHORITY_DESCRIPTION	Küldje el a kódot a mobiltelefonjára.
+MESSENGER_INPUT_MOBILE_AUTHORITY_TITLE	Írja be a kódot
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_1	Írja be a mobilszámot az SMS küldéséhez.
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_2	Most akarja megadni a mobilszámát?
+MESSENGER_INPUT_MOBILE_PHONE_NUMBER_TITLE	Írja be mobiltelefonszámát
+MESSENGER_SEND_MOBILE_MESSAGE_TITLE	Üzenet küldése.
+NEW_EXCHANGE_YOU	Én
+SASH_ABSORB	Kombináció bónusz
+SASH_COMBINE	Kombináció
+SASH_MAIN	Pánt 1
+SASH_RESULT	Eredmény
+SASH_SERVE	Pánt 2
+PANOU_GM	Admin panel
+OPTION_SALESTEXT_RANGE	Bolt sugara
+SHOP_NAME	Bolt neve
+SHOP_TIMEOUT	Idõ
+SHOP_CREATE	Bolt létrehozása
+SHOP_CREATE_PRICE	ár: 
+SHOP_CREATE_HOURS	óra
+SHOP_CREATE_HOUR	óra
+SHOP_CREATE_DAY	nap
+SHOP_CREATE_DAYS	nap
+SHOP_CREATE_NORMAL	Normál üzlet
+SHOP_NAME_EMPTY	Írja be a bolt nevét.
+SHOP_TIMEOUT_EMPTY	Válassza ki az idõt.
+SHOP_WINDOW_NAME	Üzletek
+SHOP_WINDOW_CREATE	Bolt létrehozása
+SHOP_GET_YANG	Yang kivétele
+SHOP_CHANGE_NAME	Változtasd meg a nevet
+SHOP_ENTER_NEW_NAME	Írja be az új nevet
+SHOP_CLOSE	Bezárja az üzletet
+SHOP_CLOSE_QUEST	Biztos benne, hogy bezárja az üzletet "%s"?
+SHOP_MANAGE	PANEL
+SHOP_OPEN	Hozzon létre egy boltot
+SHOP_EDIT	Szerkesztés
+SHOP_REMOVE_ITEM	Visszavon
+SHOP_CHANGE_PRICE	Ár megváltoztatása
+SHOP_EDIT_SHOP_WINDOW	Szerkesztés
+SHOP_EDIT_SHOP_CANCEL	Törlés
+SHOP_REMOVE_ITEM_QUEST	Kiszeretné venni az összes tárgyat?
+SHOP_SELECT	Választ
+SHOP_NOT_EARNED_YANG	Nincs még kivehetõ Yang!
+SHOP_YANG_QUEST	SHOP_YANG_QUEST_HIBA
+SHOP_INFORMATION	Információ
+SHOP_EARNED_YANG	SHOP_EARNED_YANG_HIBA: 
+SHOP_SOLD_ITEMS	Eladott tárgyak: 
+SHOP_REST_ITEMS	Hátralévõ tárgyak: 
+SHOP_TIME_TO_CLOSE	Maradék idõ: 
+GIFT_WINDOW_NAME	Magán bolt
+GIFT_PREV_PAGE	vissza
+GIFT_NEXT_PAGE	elõre
+GIFT_FROM	-tól
+GIFT_REASON	Indok
+GIFT_GET_ALL	Kivesz mindent
+GIFT_GET_QUEST	Biztos vagy benne, hogy vissza akar lépni "%s"?
+GIFT_GET_QUEST_ALL	Biztos benne, hogy el akarja távolítani az összes tárgyat?
+GIFT_MONEY_DESC	Yang az offline áruházából gyûlt össze.
+SHOP_SELECT_TIME	Választ
+SHOP_SEARCH_TITLE	Keressen az üzletekben
+SHOP_SEARCH_CLEAR	Tisztitás
+SHOP_SEARCH_BUTTON	Keresés
+SHOP_SEARCH_PRICE	Ár:
+SHOP_SEARCH_ENTER_ITEM_NAME	Írja be az tárgy nevét
+SHOP_SEARCH_EMPTY_ITEM_NAME	Nem találtunk ilyen nevû tárgyat!
+QUEST_CATEGORY_00	A játékosok közleményei
+QUEST_CATEGORY_01	Szerver bejelentések
+QUEST_CATEGORY_02	Más
+QUEST_CATEGORY_03	Gyûjtési küldetések
+QUEST_CATEGORY_04	Esemény típusú küldetések
+QUEST_CATEGORY_05	További küldetések
+QUEST_CATEGORY_06	A játék története
+GEMSHOP_LEFTTIME	Maradt idõ
+GEMSHOP_TITLA	GAYA PIAC
+BOX_SEARCH_NAME	Rendszer ládák
+BOX_SEARCH_SEARCH	Keresés
+BOX_SEARCH_CLEAN	Tiszta
+BOX_SEARCH_OPEN	Nyitva (1x)
+BOX_SEARCH_OPEN_ALL	Nyitva (összes)
+BOX_SEARCH_NOITEM	Ebben a mezõben nincs legördülõ elem.
+BOX_SEARCH_NOOPEN	Nincs több nyílás.
