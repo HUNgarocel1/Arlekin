@@ -662,6 +662,7 @@
 2493	blue_dragon
 2494	ch_general
 2495	ch_general
+2496	plechi_magic_boss1
 2501	zombie_diseased_kid
 2502	zombie_diseased_dog
 2503	zombie_diseased_infector
@@ -1448,6 +1449,9 @@
 11115	jinno_patrol_bow
 11116	sinsu_patrol_spear
 11117	sinsu_patrol_bow
+8689	plechi_crystal_metinstone1
+8691	plechi_underwater_eggmetin
+8692	plechi_summer_wmmetin
 11505	#season1/npc/goldenfrog/
 11506	#season2/npc/signal_fire/
 11507	#season2/npc/signal_fire/
