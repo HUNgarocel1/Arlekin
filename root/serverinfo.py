@@ -1,65 +1,44 @@
-SERVER_1	= "Arlekin"
-SERVER_IP	= "87.229.115.132"
-CH_1_NAME	= "CH 1"
-CH_2_NAME	= "CH 2"
-CH_3_NAME	= "CH 3"
-CH_4_NAME	= "CH 4"
-CH_1		= 13001
-CH_2 		= 13101
-CH_3 		= 13201
-CH_4 		= 13301
+import net
+(sv1_ip, sv1_name) = net.GetServer_IPNAME()
+(ch1_port, ch2_port, ch3_port, ch4_port, auth_port, mark_port) = net.GetServer_PORT()
 
-AUTH 		= 11003
-MARKADDR	= 13001
+CH_1_NAME	= "|cFF00FFFF|hCH1"
+CH_2_NAME	= "|cFF00FFFF|hCH2"
+CH_3_NAME	= "|cFF00FFFF|hCH3"
+CH_4_NAME	= "|cFF00FFFF|hCH4"
 
-
-#SERVER_2	= "Sex Server"
-#SERVER2_IP	= "87.229.115.132"
-
-STATE_NONE = "..."
-
+STATE_NONE = "|cFFFF0000|hZÁRVA"
+	
 STATE_DICT = {
-	0 : "...",
-	1 : "NORM",
-	2 : "FULL",
-	3 : "Busy"
+	0 : "|cFFFF0000|hZÁRVA",
+	1 : "|cff00ff00|hNORMAL",
+	2 : "|cff00ff00|hKÖZÉP",
+	3 : "|cff00ff00|hTELE"
 }
 
 SERVER01_CHANNEL_DICT = {
-	1:{"key":11,"name":CH_1_NAME,"ip":SERVER_IP,"tcp_port":CH_1,"udp_port":CH_1,"state":STATE_NONE,},
-	2:{"key":12,"name":CH_2_NAME,"ip":SERVER_IP,"tcp_port":CH_2,"udp_port":CH_2,"state":STATE_NONE,},
-	3:{"key":13,"name":CH_3_NAME,"ip":SERVER_IP,"tcp_port":CH_3,"udp_port":CH_3,"state":STATE_NONE,},
-	4:{"key":14,"name":CH_4_NAME,"ip":SERVER_IP,"tcp_port":CH_4,"udp_port":CH_4,"state":STATE_NONE,},
-	# 5:{"key":15,"name":CH_5_NAME,"ip":SERVER_IP,"tcp_port":CH_5,"udp_port":CH_5,"state":STATE_NONE,},
+	1:{"key":11,"name":CH_1_NAME,"ip":sv1_ip,"tcp_port":ch1_port,"udp_port":ch1_port,"state":STATE_NONE,},
+	2:{"key":12,"name":CH_2_NAME,"ip":sv1_ip,"tcp_port":ch2_port,"udp_port":ch2_port,"state":STATE_NONE,},
+	3:{"key":13,"name":CH_3_NAME,"ip":sv1_ip,"tcp_port":ch3_port,"udp_port":ch3_port,"state":STATE_NONE,},
+	4:{"key":14,"name":CH_4_NAME,"ip":sv1_ip,"tcp_port":ch4_port,"udp_port":ch4_port,"state":STATE_NONE,},
 }
 
-#SERVER02_CHANNEL_DICT = {
-#	1:{"key":21,"name":CH_1_NAME,"ip":SERVER2_IP,"tcp_port":CH_1,"udp_port":CH_1,"state":STATE_NONE,},
-#	2:{"key":22,"name":CH_2_NAME,"ip":SERVER2_IP,"tcp_port":CH_2,"udp_port":CH_2,"state":STATE_NONE,},
-#	3:{"key":23,"name":CH_3_NAME,"ip":SERVER2_IP,"tcp_port":CH_3,"udp_port":CH_3,"state":STATE_NONE,},
-#	4:{"key":24,"name":CH_4_NAME,"ip":SERVER2_IP,"tcp_port":CH_4,"udp_port":CH_4,"state":STATE_NONE,},
-#}
-
 REGION_NAME_DICT = {
-	0 : "",		
+	0 : "",	
 }
 
 REGION_AUTH_SERVER_DICT = {
 	0 : {
-		1 : { "ip":SERVER_IP, "port":AUTH, },
-#		2 : { "ip":SERVER2_IP, "port":AUTH, },
-
+		1 : { "ip":sv1_ip, "port":auth_port, },
 	}		
 }
 
 REGION_DICT = {
 	0 : {
-		1 : { "name" :SERVER_1, "channel" : SERVER01_CHANNEL_DICT, },
-#		2 : { "name" :SERVER_2, "channel" : SERVER02_CHANNEL_DICT, },
+		1 : { "name" :sv1_name, "channel" : SERVER01_CHANNEL_DICT, },
 	},
 }
 
 MARKADDR_DICT = {
-	10 : { "ip" : SERVER_IP, "tcp_port" : MARKADDR, "mark" : "10.tga", "symbol_path" : "10", },
-#	20 : { "ip" : SERVER2_IP, "tcp_port" : MARKADDR, "mark" : "10.tga", "symbol_path" : "10", },
+	10 : { "ip" : sv1_ip, "tcp_port" : mark_port, "mark" : "10.tga", "symbol_path" : "10", },
 }
