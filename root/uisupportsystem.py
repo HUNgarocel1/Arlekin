@@ -112,7 +112,7 @@ class SupportMainGui(ui.ScriptWindow):
 			itemSubType = item.GetItemSubType()
 			itemVnum = player.GetItemIndex(attachedSlotPos)
 			if itemType != item.ITEM_TYPE_COSTUME:
-				chat.AppendChat(chat.CHAT_TYPE_INFO, "<Buffi> Nu poti face asa ceva!")
+				chat.AppendChat(chat.CHAT_TYPE_INFO, "Csak kosztümöt adhatsz oda a sámánnak!")
 				return				
 			self.combSlot.SetItemSlot(selectedSlotPos, player.GetItemIndex(attachedSlotPos), player.GetItemCount(attachedSlotPos))
 	

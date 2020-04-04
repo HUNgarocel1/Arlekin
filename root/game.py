@@ -2870,11 +2870,11 @@ class GameWindow(ui.ScriptWindow):
 			self.interface.OpenWebWindow(url)
 
 	def __open_notice_info(self):
-		self.interface.RegisterGameMasterName("Update Info")
-		self.interface.RecvWhisper("Update Info")
+		self.interface.RegisterGameMasterName("Frissites Informacio")
+		self.interface.RecvWhisper("Frissites Informacio")
 		
 	def __write_notice_info(self,text):
-		chat.AppendWhisper(chat.WHISPER_TYPE_CHAT, "Update Info", text.replace("_", " "))			
+		chat.AppendWhisper(chat.WHISPER_TYPE_CHAT, "Frissites Informacio", text.replace("_", " "))			
 			
 	# WEDDING
 	def __LoginLover(self):
