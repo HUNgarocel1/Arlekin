@@ -40,27 +40,27 @@ Group Particle
         }
         List TimeEventEmittingDirectionZ
         {
-            0.054286 14.948454
+            0.054286 20.948454
         }
         List TimeEventEmittingVelocity
         {
-            0.000000 3.000000
+            0.000000 5.000000
         }
         List TimeEventEmissionCountPerSecond
         {
-            0.000000 20.000000
+            0.000000 25.000000
         }
         List TimeEventLifeTime
         {
-            0.000000 2.216495
+            0.000000 4.216495
         }
         List TimeEventSizeX
         {
-            0.000000 64.000000
+            0.000000 250.000000
         }
         List TimeEventSizeY
         {
-            0.000000 64.000000
+            0.000000 250.000000
         }
     }
     
@@ -84,7 +84,7 @@ Group Particle
     
         List TimeEventGravity
         {
-            0.514286 25.000000
+            0.514286 15.000000
         }
         List TimeEventAirResistance
         {
