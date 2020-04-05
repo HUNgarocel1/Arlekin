@@ -205,7 +205,7 @@ class ChestDropWindow(ui.ScriptWindow):
 			self.currentChest = chestVnum
 			
 		if not self.chestDrop.has_key(self.currentChest):
-			chat.AppendChat(chat.CHAT_TYPE_INFO, "Acest cufar nu are drop. Raporteaza probleme unui administrator.")
+			chat.AppendChat(chat.CHAT_TYPE_INFO, "Ez a láda nem dob semmit. Kérlek jelentsd ezt egy GM-nek.")
 			self.Close()
 			return
 			
