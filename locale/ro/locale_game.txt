@@ -99,19 +99,19 @@ BIOLOG_APPEND_1	test1
 BIOLOG_APPEND_2	test2
 TIME_MIN_SEC	%dMin:%dSec
 TIME_MIN	%dMin
-CANNOT_CHANGE_FIGHT_MODE	Ebben a térképen nem lehet megváltoztatni a harci stílust.
+CANNOT_CHANGE_FIGHT_MODE	Ezen a térképen nem lehet megváltoztatni a harci stílust.
 CHANGE_LOOK_FAILURE_CLEAN	Ez az elem nem lett átalakítva.
 CHANGE_LOOK_DO_YOU_CLEAN	Távolítani szeretné az átalakítást az elembõl?
-CHANGE_LOOK_CHANGE_ITEM	Vrei sa transmuti acest item?
+CHANGE_LOOK_CHANGE_ITEM	Biztos szeretné egybe olvasztani?
 CHANGE_LOOK_COST	Költség: %s Yang
-CHANGE_LOOK_DEL_ITEM	Az elnyelt cikk elpusztít téged.
+CHANGE_LOOK_DEL_ITEM	A második tárgy megsemmisítésre kerül.
 CHANGE_LOOK_TITLE	Átalakítás
 TARGET_INFO_DAMAGE	DMG : %s - %s
 TARGET_INFO_DEFENSE	Def : %s
 TARGET_INFO_EXP	Exp : %s
 TARGET_INFO_MAINRACE	Rasa : %s
 TARGET_INFO_MAX_HP	Max. HP : %s
-TARGET_INFO_NO_ITEM_TEXT	Nu dropeaza iteme.
+TARGET_INFO_NO_ITEM_TEXT	Nem dob tárgyat.
 TARGET_INFO_NO_RACE	None
 TARGET_INFO_RACE_METIN	Kõ
 TARGET_INFO_RACE_ANIMAL	Állat
