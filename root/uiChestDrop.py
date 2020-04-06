@@ -205,7 +205,7 @@ class ChestDropWindow(ui.ScriptWindow):
 			self.currentChest = chestVnum
 			
 		if not self.chestDrop.has_key(self.currentChest):
-			chat.AppendChat(chat.CHAT_TYPE_INFO, "Ez a l√°da nem dob semmit. K√©rlek jelentsd ezt egy GM-nek.")
+			chat.AppendChat(chat.CHAT_TYPE_INFO, "Ez a l·da nem dob semmit. KÈrlek jelentsd ezt egy GM-nek.")
 			self.Close()
 			return
 			
