@@ -723,7 +723,7 @@ class CharacterWindow(ui.ScriptWindow):
 		except:
 			#import exception
 			#exception.Abort("CharacterWindow.RefreshStatus.BindObject")
-			## °ÔÀÓÀÌ Æ¨°Ü ¹ö¸²
+			## ??? ?? ??
 			pass
 
 		self.__RefreshStatusPlusButtonList()
@@ -971,7 +971,7 @@ class CharacterWindow(ui.ScriptWindow):
 		else:
 			self.questScrollBar.Hide()
 			
-		self.GetChild("Quest_Title").SetTextAlignLeft("Misiuni (" + str(questCount) + ")")
+		self.GetChild("Quest_Title").SetTextAlignLeft("Küldetések (" + str(questCount) + ")")
 		actualList = quest.QUEST_MAX_NUM
 		self.additionalY = 0
 		for i in questRange[:questCount]:
@@ -1246,11 +1246,11 @@ class CharacterWindow(ui.ScriptWindow):
 
 	def CanShowPlusButton(self, skillIndex, skillLevel, curStatPoint):
 
-		## ½ºÅ³ÀÌ ÀÖÀ¸¸é
+		## ??? ???
 		if 0 == skillIndex:
 			return False
 
-		## ·¹º§¾÷ Á¶°ÇÀ» ¸¸Á·ÇÑ´Ù¸é
+		## ??? ??? ?????
 		if not skill.CanLevelUpSkill(skillIndex, skillLevel):
 			return False
 
@@ -1366,8 +1366,8 @@ class CharacterWindow(ui.ScriptWindow):
 
 		mouseModule.mouseController.DeattachObject()
 
-	## FIXME : ½ºÅ³À» »ç¿ëÇßÀ»¶§ ½½·Ô ¹øÈ£¸¦ °¡Áö°í ÇØ´ç ½½·ÔÀ» Ã£¾Æ¼­ ¾÷µ¥ÀÌÆ® ÇÑ´Ù.
-	##         ¸Å¿ì ºÒÇÕ¸®. ±¸Á¶ ÀÚÃ¼¸¦ °³¼±ÇØ¾ß ÇÒµí.
+	## FIXME : ??? ????? ?? ??? ??? ?? ??? ??? ???? ??.
+	##         ?? ???. ?? ??? ???? ??.
 	def OnUseSkill(self, slotIndex, coolTime):
 
 		skillIndex = player.GetSkillIndex(slotIndex)
