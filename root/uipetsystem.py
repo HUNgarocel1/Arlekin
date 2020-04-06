@@ -181,6 +181,10 @@ class PetSystemMain(ui.ScriptWindow):
 		self.Hide()
 		constInfo.PET_MAIN = 0
 		self.feedwind.Close()
+		
+	def OnPressEscapeKey(self):
+		self.Close()
+		return True
 	
 	def __LoadWindow(self):
 		try:
@@ -559,6 +563,10 @@ class PetSystemMini(ui.ScriptWindow):
 
 	def Close(self):
 		self.Hide()
+		
+	def OnPressEscapeKey(self):
+		self.Close()
+		return True
 	
 	def __LoadWindow(self):
 		try:
