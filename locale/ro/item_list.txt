@@ -7615,3 +7615,4 @@
 711214	ETC	icon/item/71119.tga
 62000	ARMOR	icon/item/covid_19_costume_white.tga
 62500	ETC	icon/item/covid_19_hair_white.tga	
+28045	ETC	icon/item/28045.tga
