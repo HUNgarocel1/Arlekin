@@ -1,0 +1,29 @@
+[DELAY érték; 0]
+HALÁSZATI HALÁSZAT [ENTER]
+Menjen kirakós ládákra! [ENTER]
+Minden csomagtartó véletlenszerû puzzle-t tartalmaz. [ENTER]
+Komplett puzzle minél kevesebb kísérlettel [ENTER]
+és nyerj egy fantasztikus díjat az eseményen! [ENTER]
+Bal egérgombbal nyissa meg a csomagtartót. [ENTER]
+Húzza a kirakós játékot, hogy helyezze azt [ENTER]
+hogy a megfelelõ helyre tegye. [ENTER]
+[WAIT]
+Jobb egér a sáv felszabadításához [ENTER]
+ha nem egyezik. [ENTER]
+Minél kevesebbet használja az [ENTER]
+mindkét jutalom jobb lesz. [ENTER]
+[ENTER]
+10 vagy annál kevesebb: Aranyhal doboz (L) [ENTER]
+11–24: Aranyhalláda (M) [ENTER]
+25 vagy annál több: Aranyhal doboz (ok) [ENTER]
+[WAIT]
+DELUXE [ENTER]
+Ha rendelkezik a halászati ??könyvvel, akkor lehetõsége van arra, hogy [ENTER]
+Deluxe Jigsaw Box-ot horgászol. Ez a csomagtartó tartalmaz [ENTER]
+speciális kirakós deluxe alkatrészek. Közülük csak négy [ENTER]
+szükségesek a gyõzelem és a mellkas biztosításához [ENTER]
+Az aranyhal (L) a tiéd.
+Visszajelzés küldése
+Elõzmények
+Mentve
+Közösség
