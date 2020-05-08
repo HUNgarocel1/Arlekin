@@ -7355,6 +7355,7 @@
 85006	WING	icon/item/85006.tga	d:/ymir work/item/wing/Acce_02_85_006.gr2
 85007	WING	icon/item/85007.tga	d:/ymir work/item/wing/Acce_02_85_007.gr2
 85008	WING	icon/item/85008.tga	d:/ymir work/item/wing/Acce_02_85_008.gr2
+85104	WING	icon/item/85104.tga	d:/ymir work/item/wing/wing_mark03_04.gr2
 85011	WING	icon/item/85011.tga	d:/ymir work/item/wing/Acce_03_85_011.gr2
 85012	WING	icon/item/85012.tga	d:/ymir work/item/wing/Acce_03_85_012.gr2
 85013	WING	icon/item/85013.tga	d:/ymir work/item/wing/Acce_03_85_013.gr2
@@ -7616,3 +7617,4 @@
 62000	ARMOR	icon/item/covid_19_costume_white.tga
 62500	ETC	icon/item/covid_19_hair_white.tga	
 28045	ETC	icon/item/28045.tga
+50250	ARMOR	icon/item/35085.tga

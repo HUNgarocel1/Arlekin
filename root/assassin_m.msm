@@ -635,7 +635,7 @@ Group AcceData
 {
 	PathName	"d:/ymir Work/item/"
 	
-	AcceDataCount 			9
+	AcceDataCount 			20
 	Group AcceData00
 	{	
 		AcceIndex			0
@@ -698,6 +698,13 @@ Group AcceData
 		Model				"wing/ninjam/ninjam8.gr2"
 		SourceSkin			"wing/acce_85_001-008.dds"
 		TargetSkin			"wing/acce_85_001-008.dds"
+	}
+	Group AcceData09
+	{	
+		AcceIndex			5909
+		Model				"wing/wing_mark03_04.gr2"
+		SourceSkin			"wing/wing03_mark.dds"
+		TargetSkin			"wing/wing03_mark.dds"
 	}
 }
 
@@ -2070,6 +2077,11 @@ Group ShapeData
 		Model				"assassin_easter_day_2016.GR2"
 		SourceSkin			"assassin_easter_day_2016_1.dds"
 		TargetSkin			"assassin_easter_day_2016_2.dds"
+	}
+	Group ShapeData191
+	{
+		ShapeIndex			35085
+		Model				"costum_xayde.gr2"
 	}
 
 }
