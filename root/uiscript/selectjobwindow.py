@@ -38,7 +38,7 @@ window = {
 					
 					"children":
 					(
-						{ "name" : "TitleName", "type":"text", "x":0, "y":-1, "text":"Alegere competente", "all_align":"center" },
+						{ "name" : "TitleName", "type":"text", "x":0, "y":-1, "text":"Képesség választás", "all_align":"center" },
 					),
 				},	
 				

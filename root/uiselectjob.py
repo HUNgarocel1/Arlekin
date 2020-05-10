@@ -1,10 +1,10 @@
 import ui, event, constInfo, app, uiCommon, chat, net, playerSettingModule, player, localeInfo, wndMgr
 
 JOB_NAME_DICT = {
-	0	:	['Razboinic Corp','Razboinic Mental'],
-	1	:	['Ninja Lame','Ninja Arc'],
-	2	:	['Sura Arme','Sura Magie Neagra'],
-	3	:	['Saman Zmeu','Saman Leac'],
+	0	:	['Testi harcos','Mentális harcos'],
+	1	:	['Tőr Nindzsa','Íjász nindzsa'],
+	2	:	['Mágikus fegyver','Sötét mágia'],
+	3	:	['Sárkány hatalom','Gyógyítás hatalom'],
 	# 4	:	['Lycan Instinct','N.A.']
 }
 
@@ -132,7 +132,7 @@ class JobSelectWindow(ui.ScriptWindow):
 			
 	def SelectJobFirstQuestion(self):
 		self.questionDialog = uiCommon.QuestionDialog()
-		self.questionDialog.SetText("Esti sigur ca vrei sa alegi abilitatea: %s" % JOB_NAME_DICT[self.GetRealRace()][0])
+		self.questionDialog.SetText("Biztos vagy benne hogy: %s választod?" % JOB_NAME_DICT[self.GetRealRace()][0])
 		self.questionDialog.SetAcceptEvent(ui.__mem_func__(self.SelectJobFirst))
 		self.questionDialog.SetCancelEvent(ui.__mem_func__(self.__OnCloseQuestionDialog))
 		self.questionDialog.Open()
@@ -145,7 +145,7 @@ class JobSelectWindow(ui.ScriptWindow):
 		
 	def SelectJobSecondQuestion(self):
 		self.questionDialog = uiCommon.QuestionDialog()
-		self.questionDialog.SetText("Esti sigur ca vrei sa alegi abilitatea: %s" % JOB_NAME_DICT[self.GetRealRace()][1])
+		self.questionDialog.SetText("Biztos vagy benne hogy: %s választod?" % JOB_NAME_DICT[self.GetRealRace()][1])
 		self.questionDialog.SetAcceptEvent(ui.__mem_func__(self.SelectJobSecond))
 		self.questionDialog.SetCancelEvent(ui.__mem_func__(self.__OnCloseQuestionDialog))
 		self.questionDialog.Open()
@@ -166,7 +166,7 @@ class JobSelectWindow(ui.ScriptWindow):
 
 	def Close(self):
 		self.wndpopupdialog = uiCommon.PopupDialog()
-		self.wndpopupdialog.SetText("Nu poti inchide aceasta fereastra.")
+		self.wndpopupdialog.SetText("Kötelező képességet választanod.")
 		self.wndpopupdialog.Open()
 		
 	def RealClose(self):

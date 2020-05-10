@@ -315,7 +315,7 @@ ITEM_MALL	Tárgy piac
 LOAD_ERROR	Az adatfájl megsérült. Installáld újra a klienst. Nyomd meg az ESC gombot.
 LOGIN_CONNECT	Csatlakozik
 LOGIN_CONNECTING	A szerverhez leszel kapcsolva.
-LOGIN_DEFAULT_SERVERADDR	Arlekin Online, Csatorna 1
+LOGIN_DEFAULT_SERVERADDR	Syrius2, Csatorna 1
 LOGIN_EXIT	Bezár
 LOGIN_REGION_TITLE	Számlakibocsátás helyszíne
 LOGIN_SELECT_BUTTON	Választ
@@ -342,7 +342,7 @@ MINI_GAME_RUMI_LBUTTON_DESC	Bal egér a kártya hozzáadásához
 MINI_GAME_RUMI_RBUTTON_DESC	Jobb egér a kártya törléséhez
 MINI_GAME_RUMI_SCORE	Pontszám
 MINI_GAME_RUMI_START_TEXT	Kezdés
-MINI_GAME_RUMI_TITLE	Arlekin Online Okey kártyajáték
+MINI_GAME_RUMI_TITLE	Syrius2 Okey kártyajáték
 MOUSEBUTTON_ATTACK	Támad
 MOUSEBUTTON_AUTO_ATTACK	Automatikus támadás
 MOUSEBUTTON_CAMERA	Kamera

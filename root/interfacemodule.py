@@ -1426,18 +1426,9 @@ class Interface(object):
 
 	def ToggleDragonSoulWindow(self):
 		if False == player.IsObserverMode():
-			if app.ENABLE_DRAGON_SOUL_SYSTEM:
-				if False == self.wndDragonSoul.IsShow():
-					if self.DRAGON_SOUL_IS_QUALIFIED:
-						self.wndDragonSoul.Show()
-					else:
-						try:
-							self.wndPopupDialog.SetText(localeInfo.DRAGON_SOUL_UNQUALIFIED)
-							self.wndPopupDialog.Open()
-						except:
-							self.wndPopupDialog = uiCommon.PopupDialog()
-							self.wndPopupDialog.SetText(localeInfo.DRAGON_SOUL_UNQUALIFIED)
-							self.wndPopupDialog.Open()
+			if False == self.wndDragonSoul.IsShow():
+				if app.ENABLE_DRAGON_SOUL_SYSTEM:
+					self.wndDragonSoul.Show()
 				else:
 					self.wndDragonSoul.Close()
 

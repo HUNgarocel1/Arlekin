@@ -158,6 +158,8 @@ class MainStream(object):
 		if self.curPhaseWindow:
 			self.curtain.FadeIn()
 			self.curPhaseWindow.SetFocus()
+		else:
+			app.Exit()
 
 	def CreatePopupDialog(self):
 		self.popupWindow = PopupDialog()

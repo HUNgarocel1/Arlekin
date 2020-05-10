@@ -37,7 +37,7 @@ SHOP_LIMIT_TODAY	Napi limit: %d / %d
 SHOP_MY_BATTLE_POINT	HZ Pont: %d
 SHOP_NOT_ENOUGH_BATTLE_POINT	Nincs elég HZ Pontod.
 TOOLTIP_BATTLE_POTION	Elvarázsolt ital	SNA
-MESSENGER_TEAM	Az Arlekin csapat
+MESSENGER_TEAM	A(z) Syrius2 csapat
 UPGRADE_STORAGE_TITLE	Különleges letét
 POLYMORPH_AFFECT_TOOLTIP	Glob de transformare	SNA
 POLYMORPH_AFFECT_REMOVE_QUESTION	Biztos benne, hogy feladni akarja az átalakulást?
@@ -1124,7 +1124,7 @@ TITILE_DESC_16	Ennek a tárgynak a felszereléséhez a következõt kell tennie: öld 
 TITILE_DESC_17	Ennek a tárgynak a felszereléséhez a következõt kell tennie: öld meg a Kék Halált ötször.
 TITILE_DESC_18	Ennek a tárgynak a felszereléséhez a következõt kell tennie: öld meg 35x Ingerul cu Coasa.
 TITILE_DESC_19	Ez az titulus a VIP csomag megnyitása után feloldódik.
-TITILE_DESC_20	Ennek a tárgynak a felszereléséhez a következõt kell tennie: Ön a Arlekin csapat tagja.
+TITILE_DESC_20	Ennek a tárgynak a felszereléséhez a következõt kell tennie: Ön a Syrius2 csapat tagja.
 TITILE_BNS_1	Max TP: + 1.000|Szörnyek elleni erõ +10%
 TITILE_BNS_2	Max TP: + 1.000|Szörnyek elleni erõ +10%
 TITILE_BNS_3	Max TP: + 1.000|Szörnyek elleni erõ +10%
@@ -1166,7 +1166,7 @@ TITILE_NAME_16	OPT mester
 TITILE_NAME_17	Kiccsiiillaag
 TITILE_NAME_18	#Pákó
 TITILE_NAME_19	Prémium Játékos
-TITILE_NAME_20	Arlekin Online
+TITILE_NAME_20	Syrius2
 RECV_TITLE_ANSWER_0	Ismeretlen hiba.
 RECV_TITLE_ANSWER_1	Ön már felszerelte ezt a titulust.
 RECV_TITLE_ANSWER_2	Ezt a titulust nem lehet feloldani.
