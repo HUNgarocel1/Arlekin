@@ -7618,3 +7618,19 @@
 62500	ETC	icon/item/covid_19_hair_white.tga	
 28045	ETC	icon/item/28045.tga
 50250	ARMOR	icon/item/35085.tga
+62200	WEAPON	icon/item/set_summer_ess_bell.tga	d:/ymir work/item/weapon/set_summer_ess_bell.gr2
+62201	WEAPON	icon/item/set_summer_ess_bow.tga	d:/ymir work/item/weapon/set_summer_ess_bow.gr2
+62202	WEAPON	icon/item/set_summer_ess_knife.tga	d:/ymir work/item/weapon/set_summer_ess_knife.gr2
+62203	WEAPON	icon/item/set_summer_ess_range.tga	d:/ymir work/item/weapon/set_summer_ess_range.gr2
+62204	WEAPON	icon/item/set_summer_ess_spear.tga	d:/ymir work/item/weapon/set_summer_ess_spear.gr2
+62205	WEAPON	icon/item/set_summer_ess_sword.tga	d:/ymir work/item/weapon/set_summer_ess_sword.gr2
+62206	WEAPON	icon/item/set_summer_ess_sword_s.tga	d:/ymir work/item/weapon/set_summer_ess_sword_s.gr2
+62500	ARMOR	icon/item/daedric.tga
+62501	ARMOR	icon/item/34689.tga
+62207	WEAPON	icon/item/10118.tga	d:/ymir work/item/weapon/summer/espada.gr2
+62208	WEAPON	icon/item/10119.tga	d:/ymir work/item/weapon/summer/hoja.gr2
+62209	WEAPON	icon/item/10120.tga	d:/ymir work/item/weapon/summer/sura.gr2
+62210	WEAPON	icon/item/10121.tga	d:/ymir work/item/weapon/summer/daga.gr2
+62211	WEAPON	icon/item/10122.tga	d:/ymir work/item/weapon/summer/arco.gr2
+62212	WEAPON	icon/item/10123.tga	d:/ymir work/item/weapon/summer/fan.gr2
+62213	WEAPON	icon/item/10124.tga	d:/ymir work/item/weapon/summer/campana.gr2

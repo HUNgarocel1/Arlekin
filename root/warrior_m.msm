@@ -2142,6 +2142,28 @@ Group ShapeData
 		SourceSkin			"warrior_easter_day_2017_1.dds"
 		TargetSkin			"warrior_easter_day_2017_2.dds"
 	}
+	Group ShapeData194
+	{
+		SpecialPath			"d:/ymir work/pc/warrior/"
+			
+		ShapeIndex			62500
+		Model				"daedric.GR2"
+		TargetSkin1			"daedricarmor.jpg"	
+		TargetSkin2			"daedricboots.jpg"
+		TargetSkin3			"daedricgloves.jpg"
+		TargetSkin4			"daedrichelmet.jpg"	
+		TargetSkin5			"scudo.jpg"
+		TargetSkin6			"faccia.tga"
+	}
+	Group ShapeData195
+	{
+		SpecialPath			"d:/ymir work/pc/warrior/"
+			
+		ShapeIndex			62501
+		Model				"warrior_c01_1.GR2"
+		TargetSkin1			"warrior_c01_1.jpg"	
+		TargetSkin2			"warrior_c01_2.jpg"
+	}
 }
 
 Group AttachingData
