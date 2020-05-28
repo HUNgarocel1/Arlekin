@@ -2152,6 +2152,84 @@ Group ShapeData
 		SourceSkin			"sura_easter_day_2017_1.dds"
 		TargetSkin			"sura_easter_day_2017_2.dds"
 	}
+	Group ShapeData193
+	{
+		ShapeIndex			62533
+		Model				"strelpsis1_costum.GR2"
+		SourceSkin			"strelpsis1.dds"
+		TargetSkin			"strelpsis1.dds"
+	}
+	Group ShapeData194
+	{
+		ShapeIndex			62534
+		Model				"strelpsis2.GR2"
+		SourceSkin			"strelpsis2.dds"
+		TargetSkin			"strelpsis2.dds"
+	}
+	Group ShapeData195
+	{
+		ShapeIndex			62550
+		Model				"sura_assassin1.GR2"
+		SourceSkin			"sura_assassin1.dds"
+		TargetSkin			"sura_assassin20.dds"
+	}
+	Group ShapeData196
+	{
+		ShapeIndex			62551
+		Model				"sura_soccer1_Germany.GR2"
+		SourceSkin			"sura_soccer1_Germany.dds"
+		TargetSkin			"sura_soccer1_egyedi.dds"	
+	}
+	Group ShapeData197
+	{
+		ShapeIndex			62552
+		Model				"sura_summer_2017.GR2"
+		SourceSkin			"sura_summer_2017_1.dds"
+		TargetSkin			"sura_summer_2011.dds"
+	}
+	Group ShapeData198
+	{
+		ShapeIndex			62555
+		Model				"sura_soccer1_Germany.GR2"
+		SourceSkin			"sura_soccer1_Germany.dds"
+		TargetSkin			"sura_soccer1_playboy.dds"	
+	}
+	Group ShapeData199
+	{
+		ShapeIndex			62561
+		Model				"sura_assassin1.GR2"
+		SourceSkin			"sura_assassin1.dds"
+		TargetSkin			"sura_assassin15.dds"
+	}
+	Group ShapeData200
+	{
+		ShapeIndex			62562
+		Model				"sura_assassin1.GR2"
+		SourceSkin			"sura_assassin1.dds"
+		TargetSkin			"sura_assassin21.dds"
+	}
+	Group ShapeData201
+	{
+		ShapeIndex			62582
+		Model				"sura_soccer1_Germany.GR2"
+		SourceSkin			"sura_soccer1_Germany.dds"
+		TargetSkin			"sura_soccer1_germany212.dds"	
+	}
+	Group ShapeData202
+	{
+		ShapeIndex			62583
+		Model				"sura_soccer1_Germany.GR2"
+		SourceSkin			"sura_soccer1_Germany.dds"
+		TargetSkin			"sura_soccer1_germany112.dds"	
+	}
+	Group ShapeData203
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		ShapeIndex			62590
+		Model				"sura_6_1.GR2"
+		SourceSkin			"sura_6_1.dds"
+		TargetSkin			"sura_6_10.dds"
+	}
 }
 
 Group AttachingData

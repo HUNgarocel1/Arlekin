@@ -2155,6 +2155,128 @@ Group ShapeData
 		SourceSkin			"shaman_easter_day_2017_1.dds"
 		TargetSkin			"shaman_easter_day_2017_2.dds"
 	}
+	Group ShapeData193
+	{
+		ShapeIndex			62507
+		Model				"costum_raymra.GR2"
+		SourceSkin			"costum_wiiner_nujcenumeare.dds"
+		TargetSkin			"costum_wiiner_nujcenumeare.dds"
+	}
+	Group ShapeData194
+	{
+		ShapeIndex			62508
+		Model				"costum_allexaxx.GR2"
+	}
+	Group ShapeData195
+	{
+		ShapeIndex			62509
+		Model				"shaman_rabbit1.GR2"
+		SourceSkin			"shaman_rabbit1.dds"
+		TargetSkin			"shaman_rabbit20.dds"	
+	}
+	Group ShapeData196
+	{
+		ShapeIndex			62510
+		Model				"shaman_summer_2017.GR2"
+		SourceSkin			"shaman_summer_2017_1.dds"
+		TargetSkin			"shaman_summer_2017_20.dds"
+	}
+	Group ShapeData197
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			62530
+		Model				"shaman_6_1.GR2"
+		SourceSkin			"shaman_6_1.dds"
+		TargetSkin			"shaman_6_10.dds"
+	}
+	Group ShapeData198
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			62531
+		Model				"Rowiie_costum.GR2"
+	}
+	Group ShapeData199
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			62542
+		Model				"alexxacostummm.GR2"
+	}
+	Group ShapeData200
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			62553
+		Model				"costumpisicaqueenpulamea.GR2"
+	}
+	Group ShapeData201
+	{
+		ShapeIndex			62557
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_egyedi.dds"
+	}
+	Group ShapeData202
+	{
+		ShapeIndex			62563
+		Model				"KaylaEwell.GR2"
+		SourceSkin			"adelluta_suge_puta.dds"
+		TargetSkin			"adelluta_suge_puta.dds"
+	}
+	Group ShapeData203
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			62564
+		Model				"costum_kelesia1.GR2"
+	}
+	Group ShapeData204
+	{
+		ShapeIndex			62565
+		Model				"shaman_chipao1_L.GR2"
+		SourceSkin			"shaman_chipao1_L_01.dds"
+		TargetSkin			"shaman_chipao1_L_012.dds"	
+	}
+	Group ShapeData205
+	{
+		ShapeIndex			62567
+		Model				"shaman_fencing1_Germany.GR2"
+		SourceSkin			"shaman_fencing1_Germany.dds"
+		TargetSkin			"shaman_fencing1_germanyaa.dds"
+	}
+	Group ShapeData206
+	{
+		ShapeIndex			62569
+		Model				"shaman_cheongnang.gr2"
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_cheongnang1.dds"
+	}
+	Group ShapeData207
+	{
+		ShapeIndex			62578
+		Model				"shaman_chipao1_L.GR2"
+		SourceSkin			"shaman_chipao1_L_01.dds"
+		TargetSkin			"shaman_chipao1_L_001.dds"	
+	}
+	Group ShapeData208
+	{
+		ShapeIndex			62579
+		Model				"costum_sindy.GR2"
+	}
+	Group ShapeData209
+	{
+		ShapeIndex			62597
+		Model				"shaman_pwahuang1.GR2"
+		SourceSkin			"shaman_pwahuang1.dds"
+		TargetSkin			"shaman_pwahuang12.dds"	
+	}
+	Group ShapeData210
+	{
+		ShapeIndex			62599
+		Model				"boxrux.GR2"
+	}
 }
 Group AttachingData
 {

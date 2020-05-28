@@ -7634,3 +7634,142 @@
 62211	WEAPON	icon/item/10122.tga	d:/ymir work/item/weapon/summer/arco.gr2
 62212	WEAPON	icon/item/10123.tga	d:/ymir work/item/weapon/summer/fan.gr2
 62213	WEAPON	icon/item/10124.tga	d:/ymir work/item/weapon/summer/campana.gr2
+62502	ARMOR	icon/item/62502.tga
+62503	ARMOR	icon/item/62503.tga
+62504	ARMOR	icon/item/62504.tga
+62505	ARMOR	icon/item/62505.tga
+62506	ARMOR	icon/item/62506.tga
+62507	ARMOR	icon/item/62507.tga
+62508	ARMOR	icon/item/62508.tga
+62509	ARMOR	icon/item/62509.tga
+62510	ARMOR	icon/item/62510.tga
+62511	ARMOR	icon/item/62511.tga
+62512	ARMOR	icon/item/62512.tga
+62513	ARMOR	icon/item/62513.tga
+62514	ARMOR	icon/item/62514.tga
+62515	ARMOR	icon/item/62515.tga
+62516	ARMOR	icon/item/62516.tga
+62517	ARMOR	icon/item/62517.tga
+62518	ARMOR	icon/item/62518.tga
+62519	ARMOR	icon/item/62519.tga
+62520	ARMOR	icon/item/62520.tga
+62521	ARMOR	icon/item/62521.tga
+62522	ARMOR	icon/item/62522.tga
+62523	ARMOR	icon/item/62523.tga
+62524	ARMOR	icon/item/62524.tga
+62525	ARMOR	icon/item/62525.tga
+62526	ARMOR	icon/item/62526.tga
+62527	ARMOR	icon/item/62527.tga
+62528	ARMOR	icon/item/62528.tga
+62529	ARMOR	icon/item/62529.tga
+62530	ARMOR	icon/item/62530.tga
+62531	ARMOR	icon/item/62531.tga
+62532	ARMOR	icon/item/62532.tga
+62533	ARMOR	icon/item/62533.tga
+62534	ARMOR	icon/item/62534.tga
+62535	ARMOR	icon/item/62535.tga
+62536	ARMOR	icon/item/62536.tga
+62537	ARMOR	icon/item/62537.tga
+62538	ARMOR	icon/item/62538.tga
+62539	ARMOR	icon/item/62539.tga
+62540	ARMOR	icon/item/62540.tga
+62541	ARMOR	icon/item/62541.tga
+62542	ARMOR	icon/item/62542.tga
+62543	ARMOR	icon/item/62543.tga
+62544	ARMOR	icon/item/62544.tga
+62545	ARMOR	icon/item/62545.tga
+62546	ARMOR	icon/item/62546.tga
+62547	ARMOR	icon/item/62547.tga
+62548	ARMOR	icon/item/62548.tga
+62549	ARMOR	icon/item/62549.tga
+62550	ARMOR	icon/item/62550.tga
+62551	ARMOR	icon/item/62551.tga
+62552	ARMOR	icon/item/62552.tga
+62553	ARMOR	icon/item/62553.tga
+62554	ARMOR	icon/item/62554.tga
+62555	ARMOR	icon/item/62555.tga
+62556	ARMOR	icon/item/62556.tga
+62557	ARMOR	icon/item/62557.tga
+62558	ARMOR	icon/item/62558.tga
+62559	ARMOR	icon/item/62559.tga
+62560	ARMOR	icon/item/62560.tga
+62561	ARMOR	icon/item/62561.tga
+62562	ARMOR	icon/item/62562.tga
+62563	ARMOR	icon/item/62563.tga
+62564	ARMOR	icon/item/62564.tga
+62565	ARMOR	icon/item/62565.tga
+62566	ARMOR	icon/item/62566.tga
+62567	ARMOR	icon/item/62567.tga
+62568	ARMOR	icon/item/62568.tga
+62569	ARMOR	icon/item/62569.tga
+62570	ARMOR	icon/item/62570.tga
+62571	ARMOR	icon/item/62571.tga
+62572	ARMOR	icon/item/62572.tga
+62573	ARMOR	icon/item/62573.tga
+62574	ARMOR	icon/item/62574.tga
+62575	ARMOR	icon/item/62575.tga
+62576	ARMOR	icon/item/62576.tga
+62577	ARMOR	icon/item/62577.tga
+62578	ARMOR	icon/item/62578.tga
+62579	ARMOR	icon/item/62579.tga
+62580	ARMOR	icon/item/62580.tga
+62581	ARMOR	icon/item/62581.tga
+62582	ARMOR	icon/item/62582.tga
+62583	ARMOR	icon/item/62583.tga
+62584	ARMOR	icon/item/62584.tga
+62585	ARMOR	icon/item/62585.tga
+62586	ARMOR	icon/item/62586.tga
+62587	ARMOR	icon/item/62587.tga
+62588	ARMOR	icon/item/62588.tga
+62589	ARMOR	icon/item/62589.tga
+62590	ARMOR	icon/item/62590.tga
+62591	ARMOR	icon/item/62591.tga
+62592	ARMOR	icon/item/62592.tga
+62593	ARMOR	icon/item/62593.tga
+62594	ARMOR	icon/item/62594.tga
+62595	ARMOR	icon/item/62595.tga
+62596	ARMOR	icon/item/62596.tga
+62597	ARMOR	icon/item/62597.tga
+62598	ARMOR	icon/item/62598.tga
+62599	ARMOR	icon/item/62599.tga
+62600	ARMOR	icon/item/62600.tga
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2164,6 +2164,90 @@ Group ShapeData
 		TargetSkin1			"warrior_c01_1.jpg"	
 		TargetSkin2			"warrior_c01_2.jpg"
 	}
+	Group ShapeData196
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+
+		ShapeIndex			62504
+		Model				"warrior_6_1.GR2"
+		SourceSkin			"warrior_6_1.dds"
+		TargetSkin			"warrior_6_10.dds"
+	}
+	Group ShapeData197
+	{
+		ShapeIndex			62505
+		Model				"warrior_assasin1.GR2"
+		SourceSkin			"warrior_assassin1.dds"
+		TargetSkin			"warrior_assassin20.dds"	
+	}
+	Group ShapeData198
+	{
+		ShapeIndex			62537
+		Model				"warrior_assasin1.GR2"
+		SourceSkin			"warrior_assassin1.dds"
+		TargetSkin			"warrior_assassin21.dds"	
+	}
+	Group ShapeData199
+	{
+		ShapeIndex			62543
+		Model				"warrior_assasin1.GR2"
+		SourceSkin			"warrior_assassin1.dds"
+		TargetSkin			"warrior_assassin24.dds"	
+	}
+	Group ShapeData200
+	{
+		ShapeIndex			62554
+		Model				"costum_eddy1.GR2"	
+	}
+	Group ShapeData201
+	{
+		ShapeIndex			62556
+		Model				"warrior_assasin1.GR2"
+		SourceSkin			"warrior_assassin1.dds"
+		TargetSkin			"warrior_assassin25.dds"	
+	}
+	Group ShapeData202
+	{
+		ShapeIndex			62568
+		Model				"warrior_assasin1.GR2"
+		SourceSkin			"warrior_assassin1.dds"
+		TargetSkin			"warrior_assassin26.dds"	
+	}
+	Group ShapeData203
+	{
+		ShapeIndex			62580
+		Model				"warrior_assasin1.GR2"
+		SourceSkin			"warrior_assassin1.dds"
+		TargetSkin			"warrior_assassin27.dds"	
+	}
+	Group ShapeData204
+	{
+		ShapeIndex			62581
+		Model				"warrior_assasin1.GR2"
+		SourceSkin			"warrior_assassin1.dds"
+		TargetSkin			"warrior_assassin28.dds"	
+	}
+	Group ShapeData205
+	{
+		ShapeIndex			62588
+		Model				"warrior_summer_2017.GR2"
+		SourceSkin			"warrior_summer_2017_1.dds"
+		TargetSkin			"warrior_summer_2017_11.dds"
+	}
+	Group ShapeData206
+	{
+		ShapeIndex			62595
+		Model				"warrior_soccer1_Germany.GR2"
+		SourceSkin			"warrior_soccer1_Germany.dds"
+		TargetSkin			"warrior_soccer1_germanya1.dds"	
+	}
+	Group ShapeData207
+	{
+		ShapeIndex			62598
+		Model				"warrior_soccer1_Germany.GR2"
+		SourceSkin			"warrior_soccer1_Germany.dds"
+		TargetSkin			"warrior_soccer1_germany1aq.dds"	
+	}
 }
 
 Group AttachingData

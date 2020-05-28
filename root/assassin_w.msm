@@ -2097,7 +2097,13 @@ Group ShapeData
 		SourceSkin			"assassin_easter_day_2017_1.dds"
 		TargetSkin			"assassin_easter_day_2017_2.dds"
 	}
-	
+	Group ShapeData193
+	{
+		ShapeIndex			62546
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_10.dds"
+	}
 }
 
 Group AttachingData

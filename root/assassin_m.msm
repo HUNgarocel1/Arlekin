@@ -2083,7 +2083,254 @@ Group ShapeData
 		ShapeIndex			35085
 		Model				"costum_xayde.gr2"
 	}
+	Group ShapeData192
+	{
+		ShapeIndex			62502
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin20.dds"
+	}
+	Group ShapeData193
+	{
+		ShapeIndex			62503
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_5.dds"
+	}
+	Group ShapeData194
+	{
+		ShapeIndex			62506
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin21.dds"
+	}
+	Group ShapeData195
+	{
+		ShapeIndex			62511
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_6.dds"
+	}
+	Group ShapeData196
+	{
+		ShapeIndex			62512
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_7.dds"
+	}
+	Group ShapeData197
+	{
+		ShapeIndex			62513
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_8.dds"
+	}
+	Group ShapeData198
+	{
+		ShapeIndex			62514
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_9.dds"
+	}
+	Group ShapeData199
+	{
+		ShapeIndex			62515
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_10.dds"
+	}
+	Group ShapeData200
+	{
+		ShapeIndex			62516
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_11.dds"
+	}
+	Group ShapeData201
+	{
+		ShapeIndex			62517
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin22.dds"
+	}
+	Group ShapeData202
+	{
+		ShapeIndex			62518
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin23.dds"
+	}
+	Group ShapeData203
+	{	
+		ShapeIndex			62519
+		Model				"assassin_6_1.GR2"
+		SourceSkin			"assassin_6_1.dds"
+		TargetSkin			"assassin_6_10.dds"
+	}
+	Group ShapeData204
+	{
+		SpecialPath			"d:/ymir Work/pc2/assassin/"
 
+		ShapeIndex			62520	
+		Model				"assassin_4-1.GR2"
+		SourceSkin			"assassin_4-1.dds"
+		TargetSkin			"assassin_4-10.dds"
+	}
+	Group ShapeData205
+	{
+		ShapeIndex			62529
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_12.dds"
+	}
+	Group ShapeData206
+	{
+		ShapeIndex			62532
+		Model				"assassin_fencing1_Germany.GR2"
+		SourceSkin			"assasin_fencing1_Germany.dds"
+		TargetSkin			"assasin_fencing1_germanye.dds"	
+	}
+	Group ShapeData207
+	{
+		ShapeIndex			62535
+		Model				"assassin_Springwear1.GR2"
+		SourceSkin			"assassin_Springwear1.dds"
+		TargetSkin			"assassin_Springwear5.dds"
+	}
+	Group ShapeData208
+	{
+		ShapeIndex			62536
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin24.dds"
+	}
+	Group ShapeData209
+	{
+		ShapeIndex			62538
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin25.dds"
+	}
+	Group ShapeData210
+	{	
+		ShapeIndex			62539
+		Model				"assassin_6_1.GR2"
+		SourceSkin			"assassin_6_1.dds"
+		TargetSkin			"assassin_6_11.dds"
+	}
+	Group ShapeData211
+	{
+		ShapeIndex			62540
+		Model				"inger_malzahar.gr2"
+	}
+	Group ShapeData212
+	{
+		ShapeIndex			62548
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin26.dds"
+	}
+	Group ShapeData213
+	{
+		ShapeIndex			62549
+		Model				"assassin_summer_2017.GR2"
+		SourceSkin			"assassin_summer_2017_1.dds"
+		TargetSkin			"assassin_summer_2017_13.dds"
+	}
+	Group ShapeData214
+	{
+		ShapeIndex			62558
+		Model				"costum_pirat_erik.GR2"
+		SourceSkin			"costum_pirat_erik.dds"
+		TargetSkin			"costum_pirat_erik.dds"
+	}
+	Group ShapeData215
+	{
+		ShapeIndex			62559
+		Model				"assassin_Springwear1.GR2"
+		SourceSkin			"assassin_Springwear1.dds"
+		TargetSkin			"assassin_Springwear15.dds"
+	}
+	Group ShapeData216
+	{
+		ShapeIndex			62566
+		Model				"assassin_fencing1_Germany.GR2"
+		SourceSkin			"assasin_fencing1_Germany.dds"
+		TargetSkin			"assasin_fencing1_germanyy.dds"	
+	}
+	Group ShapeData217
+	{
+		ShapeIndex			62577
+		Model				"costum_messenger.gr2"
+	}
+	Group ShapeData218
+	{
+		ShapeIndex			62584
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin30.dds"
+	}
+	Group ShapeData219
+	{
+		ShapeIndex			62585
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin31.dds"
+	}
+	Group ShapeData220
+	{
+		ShapeIndex			62586
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin32.dds"
+	}
+	Group ShapeData221
+	{
+		ShapeIndex			62587
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin33.dds"
+	}
+	Group ShapeData222
+	{
+		ShapeIndex			62589
+		Model				"assasin_soccer1_Germany.GR2"
+		SourceSkin			"assasin_soccer1_Germany.dds"
+		TargetSkin			"assasin_soccer1_germany233.dds"
+	}
+	Group ShapeData223
+	{
+		ShapeIndex			62591
+		Model				"costum_samurai_xayde.gr2"
+	}
+	Group ShapeData224
+	{
+		ShapeIndex			62592
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin35.dds"
+	}
+	Group ShapeData225
+	{
+		ShapeIndex			62593
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin36.dds"
+	}
+	Group ShapeData226
+	{
+		ShapeIndex			62594
+		Model				"assassin_assasin1.GR2"
+		SourceSkin			"assassin_assasin1.dds"
+		TargetSkin			"assassin_assasin37.dds"
+	}
+	Group ShapeData227
+	{
+		ShapeIndex			62600
+		Model				"assasin_soccer1_Germany.GR2"
+		SourceSkin			"assasin_soccer1_Germany.dds"
+		TargetSkin			"assasin_soccer1_germanya544.dds"
+	}
 }
 
 Group AttachingData
