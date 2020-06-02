@@ -124,8 +124,8 @@ class BonusSelector(ui.Bar):
 		self.sub_parent.resetSwitch()
 		self.Status_new.SetColor(COLOR_ACTIVE)
 		self.sub_parent.StatusBar.SetColor(COLOR_ACTIVE)
-		self.sub_parent.StatusText.SetText("Activ")
-		self.Starter.SetText("Opreste ("+str(self.index+1)+") Stop")
+		self.sub_parent.StatusText.SetText("Aktív")
+		self.Starter.SetText("Forgatás ("+str(self.index+1)+") Leállítás")
 		self.sub_parent.boni_active = 1
 		if self.parentWindow.parentWindow.gameWindow != None:
 			self.sub_parent.blockBar.swib_normal.SetColor(COLOR_ACTIVE)
@@ -135,7 +135,7 @@ class BonusSelector(ui.Bar):
 		self.Status_new.SetColor(COLOR_INACTIVE)
 		self.sub_parent.StatusBar.SetColor(COLOR_INACTIVE)
 		self.sub_parent.StatusText.SetText("Inaktív")
-		self.Starter.SetText("Schimba ("+str(self.index+1)+") Start")
+		self.Starter.SetText("Forgatás ("+str(self.index+1)+") Indítás")
 		self.sub_parent.boni_active = 0
 		if self.sub_parent.parentWindow.parentWindow.gameWindow != None:
 			self.sub_parent.blockBar.swib_normal.SetColor(COLOR_INACTIVE)
@@ -166,7 +166,7 @@ class BonusSelector(ui.Bar):
 		self.Status_new.SetColor(COLOR_FINISHED)
 		self.sub_parent.StatusBar.SetColor(COLOR_FINISHED)
 		self.sub_parent.StatusText.SetText("SIKERES")
-		self.Starter.SetText("Schimba ("+str(self.index+1)+") Continua")
+		self.Starter.SetText("FORGATÁS ("+str(self.index+1)+") SIKERES")
 		self.sub_parent.boni_active = 0
 		if self.sub_parent.parentWindow.parentWindow.gameWindow != None:
 			self.sub_parent.blockBar.swib_normal.SetColor(COLOR_FINISHED)
@@ -247,12 +247,12 @@ class BonusSelector(ui.Bar):
 		self.bg_rare_boni_but.SetSize(100,25)
 		self.bg_rare_boni_but.Hide()
 		
-		#self.EnableRareBoni = CheckBox("6/7 Afisati")
-		#self.EnableRareBoni.SetParent(self)
-		#self.EnableRareBoni.SetPosition(10,185)
-		#self.EnableRareBoni.eventUp   = self.disable_rare_boni
-		#self.EnableRareBoni.eventDown = self.enable_rare_boni
-		#self.EnableRareBoni.Show()
+		self.EnableRareBoni = CheckBox("6/7 aktíválás")
+		self.EnableRareBoni.SetParent(self)
+		self.EnableRareBoni.SetPosition(10,185)
+		self.EnableRareBoni.eventUp   = self.disable_rare_boni
+		self.EnableRareBoni.eventDown = self.enable_rare_boni
+		self.EnableRareBoni.Show()
 		
 		self.Starter = ui.ToggleButton()
 		self.Starter.SetWindowHorizontalAlignCenter()
@@ -722,7 +722,7 @@ class ItemTabBar(ui.Window):
 				if player.GetItemAttribute(self.index, i) != self.values[i]:
 					ok = 1
 			self.prob = self.GetProb()
-			self.StatusText.SetText("Activ (%d%%)" %self.prob)
+			self.StatusText.SetText("Aktív (%d%%)" %self.prob)
 			if ok == 1 or self.prob >= 90:
 				if self.prob >= 90:
 					chat.AppendChat(1,"Slot %d: FORGATÁS SIKERES" % (self.index+1))
@@ -753,7 +753,7 @@ class ItemTabBar(ui.Window):
 				if player.GetItemAttribute(self.index, i+6) != self.values_rare[i]:
 					ok = 1
 			self.prob_rare = self.GetProb_rare()
-			self.StatusText_rare.SetText("Activ (%d%%)" %self.prob_rare)
+			self.StatusText_rare.SetText("Aktív (%d%%)" %self.prob_rare)
 			if ok == 1 or self.prob_rare >= 90:
 				if self.prob_rare >= 90:
 					self.bonusSelector.Finish_rare()
@@ -1070,10 +1070,10 @@ class Bot(ui.BoardWithTitleBar):
 			self.parent.OnUpdate()
 			for c in self.txtlist:
 				c.SetColor(c.item.StatusBar.color)
-				c.txt2.SetText("Status: %s" % c.item.StatusText.GetText())
+				c.txt2.SetText("Státusz: %s" % c.item.StatusText.GetText())
 				try:
 					c.listWin2.SetColor(c.item.StatusBar_rare.color)
-					c.txt3.SetText("Status: %s" % c.item.StatusText_rare.GetText())
+					c.txt3.SetText("Státusz: %s" % c.item.StatusText_rare.GetText())
 				except:
 					pass
 				
@@ -1170,7 +1170,7 @@ class Bot(ui.BoardWithTitleBar):
 				
 				listWin.txt2 = ui.TextLine()
 				listWin.txt2.SetParent(listWin)
-				listWin.txt2.SetText("Status: %s" % itm.StatusText.GetText())
+				listWin.txt2.SetText("Státusz: %s" % itm.StatusText.GetText())
 				listWin.txt2.SetPosition(4,2+12)
 				listWin.txt2.Show()
 				
@@ -1184,7 +1184,7 @@ class Bot(ui.BoardWithTitleBar):
 				
 				listWin.txt3 = ui.TextLine()
 				listWin.txt3.SetParent(listWin.listWin2)
-				listWin.txt3.SetText("Status: %s" % itm.StatusText_rare.GetText())
+				listWin.txt3.SetText("Státusz: %s" % itm.StatusText_rare.GetText())
 				listWin.txt3.SetPosition(4,0)
 				listWin.txt3.Hide()
 				
@@ -1558,7 +1558,7 @@ class Bot(ui.BoardWithTitleBar):
 		self.AboutWindow.text1.SetWindowHorizontalAlignCenter()
 		self.AboutWindow.text1.SetHorizontalAlignCenter()
 		self.AboutWindow.text1.SetPosition(0,5)
-		self.AboutWindow.text1.SetText("Schimbator de bonusuri")
+		self.AboutWindow.text1.SetText("Bónusz forgató információ")
 		self.AboutWindow.text1.SetPackedFontColor(ui.GenerateColor(58, 141, 221))
 		self.AboutWindow.text1.Show()
 		
