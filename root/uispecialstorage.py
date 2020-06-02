@@ -26,9 +26,9 @@ class SpecialStorageWindow(ui.ScriptWindow):
 	}
 	
 	WINDOW_NAMES = {
-		UPGRADE_TYPE	:	"Depozit Upgrade",
-		BOOK_TYPE	:	"Depozit Carti",
-		STONE_TYPE	:	"Depozit Pietre"
+		UPGRADE_TYPE	:	"Fejlesztési tárgyak",
+		BOOK_TYPE	:	"Könyvek",
+		STONE_TYPE	:	"Szellemkövek"
 	}
 	
 	def __init__(self):

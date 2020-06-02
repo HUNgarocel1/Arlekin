@@ -36,7 +36,7 @@ MAX_NUM = 7
 
 proposals = {
 	1: { # 1 = Weapon
-		"PVP (Corp)":[
+		"TESZT":[
 			[9,10],
 			[15,10],
 			[17,10],
@@ -44,7 +44,7 @@ proposals = {
 			[5,8],
 			[3,8],
 		],
-		"PVP (Mental)":[
+		"TESZT 2":[
 			[9,10],
 			[15,10],
 			[17,10],
@@ -52,7 +52,7 @@ proposals = {
 			[5,10],
 			[16,10],
 		],
-		"PVM": [
+		"TESZT 3": [
 			[5,10],
 			[19,20],
 		],
@@ -134,7 +134,7 @@ class BonusSelector(ui.Bar):
 		self.sub_parent.resetSwitch()
 		self.Status_new.SetColor(COLOR_INACTIVE)
 		self.sub_parent.StatusBar.SetColor(COLOR_INACTIVE)
-		self.sub_parent.StatusText.SetText("Inactiv")
+		self.sub_parent.StatusText.SetText("Inaktív")
 		self.Starter.SetText("Schimba ("+str(self.index+1)+") Start")
 		self.sub_parent.boni_active = 0
 		if self.sub_parent.parentWindow.parentWindow.gameWindow != None:
@@ -154,7 +154,7 @@ class BonusSelector(ui.Bar):
 		self.sub_parent.resetSwitch_rare()
 		# self.Status_new.SetColor(COLOR_INACTIVE)
 		self.sub_parent.StatusBar_rare.SetColor(COLOR_INACTIVE_RARE)
-		self.sub_parent.StatusText_rare.SetText("6/7 Inactiv")
+		self.sub_parent.StatusText_rare.SetText("6/7 Inaktív")
 		self.Starter_rare_boni.SetText("6/7 Start")
 		self.Starter_rare_boni.SetUp()
 		self.sub_parent.boni_rare_active = 0
@@ -165,7 +165,7 @@ class BonusSelector(ui.Bar):
 	def Finish(self):
 		self.Status_new.SetColor(COLOR_FINISHED)
 		self.sub_parent.StatusBar.SetColor(COLOR_FINISHED)
-		self.sub_parent.StatusText.SetText("Gata")
+		self.sub_parent.StatusText.SetText("SIKERES")
 		self.Starter.SetText("Schimba ("+str(self.index+1)+") Continua")
 		self.sub_parent.boni_active = 0
 		if self.sub_parent.parentWindow.parentWindow.gameWindow != None:
@@ -175,7 +175,7 @@ class BonusSelector(ui.Bar):
 	def Finish_rare(self):
 		# self.Status_new.SetColor(COLOR_FINISHED)
 		self.sub_parent.StatusBar_rare.SetColor(COLOR_FINISHED)
-		self.sub_parent.StatusText_rare.SetText("6/7 Gata")
+		self.sub_parent.StatusText_rare.SetText("6/7 SIKERES")
 		self.Starter_rare_boni.SetText("6/7 Continua")
 		self.sub_parent.boni_rare_active = 0
 		if self.sub_parent.parentWindow.parentWindow.gameWindow != None:
@@ -247,12 +247,12 @@ class BonusSelector(ui.Bar):
 		self.bg_rare_boni_but.SetSize(100,25)
 		self.bg_rare_boni_but.Hide()
 		
-		self.EnableRareBoni = CheckBox("6/7 Afisati")
-		self.EnableRareBoni.SetParent(self)
-		self.EnableRareBoni.SetPosition(10,185)
-		self.EnableRareBoni.eventUp   = self.disable_rare_boni
-		self.EnableRareBoni.eventDown = self.enable_rare_boni
-		self.EnableRareBoni.Show()
+		#self.EnableRareBoni = CheckBox("6/7 Afisati")
+		#self.EnableRareBoni.SetParent(self)
+		#self.EnableRareBoni.SetPosition(10,185)
+		#self.EnableRareBoni.eventUp   = self.disable_rare_boni
+		#self.EnableRareBoni.eventDown = self.enable_rare_boni
+		#self.EnableRareBoni.Show()
 		
 		self.Starter = ui.ToggleButton()
 		self.Starter.SetWindowHorizontalAlignCenter()
@@ -283,10 +283,10 @@ class BonusSelector(ui.Bar):
 			self.boni[vas] = {}
 			self.boni[vas][0] = ui.TextLine()
 			self.boni[vas][0].SetParent(self)
-			self.boni[vas][0].SetText("Bonus "+str(vas))
+			self.boni[vas][0].SetText("Bónusz "+str(vas))
 			self.boni[vas][0].SetPosition(15,10+25*(vas-1))
 			self.boni[vas][0].Hide()
-			self.boni[vas][1] = DropDown(self,"- Niciunul -")
+			self.boni[vas][1] = DropDown(self,"- VÁLASSZ -")
 			self.boni[vas][1].SetPosition(70,10+25*(vas-1))
 			for x in AFFECT_DICT:
 				if x in BONI_RARE_AVAIL:
@@ -311,10 +311,10 @@ class BonusSelector(ui.Bar):
 			self.boni[vas] = {}
 			self.boni[vas][0] = ui.TextLine()
 			self.boni[vas][0].SetParent(self)
-			self.boni[vas][0].SetText("Bonus "+str(vas))
+			self.boni[vas][0].SetText("Bónusz "+str(vas))
 			self.boni[vas][0].SetPosition(15,10+25*(vas-1))
 			self.boni[vas][0].Show()
-			self.boni[vas][1] = DropDown(self,"- Niciunul -")
+			self.boni[vas][1] = DropDown(self,"- ÜRES -")
 			self.boni[vas][1].SetPosition(70,10+25*(vas-1))
 			for x in AFFECT_DICT:
 				if x in BONI_AVAIL:
@@ -334,7 +334,7 @@ class BonusSelector(ui.Bar):
 			self.boni[vas][3].SetPosition(4,3)
 			self.boni[vas][3].Show()
 		
-		self.but_propose = DropDown(self,'Sugestii',0)
+		self.but_propose = DropDown(self,'Válassz',0)
 		self.but_propose.SetParent(self)
 		self.but_propose.SetPosition(380,210)
 		self.but_propose.OnChange=self.change_boni
@@ -395,7 +395,7 @@ class BonusSelector(ui.Bar):
 		self.but_propose.DropList.RemoveAllItems()
 		self.but_propose.maxh = 95
 		self.but_propose.c = 0
-		self.but_propose.AppendItem("Sterge",[])
+		self.but_propose.AppendItem("ÜRES",[])
 		
 		item.SelectItem(self.sub_parent.vnum)
 		type = item.GetItemType()
@@ -532,7 +532,7 @@ class ItemTabBar(ui.Window):
 			self.StatusText.SetHorizontalAlignCenter()
 			self.StatusText.SetVerticalAlignCenter()
 			self.StatusText.SetPosition(0,0)
-			self.StatusText.SetText("Inactiv")
+			self.StatusText.SetText("Inaktív")
 			self.StatusText.Show()
 			
 			
@@ -552,7 +552,7 @@ class ItemTabBar(ui.Window):
 			self.StatusText_rare.SetHorizontalAlignCenter()
 			self.StatusText_rare.SetVerticalAlignCenter()
 			self.StatusText_rare.SetPosition(0,0)
-			self.StatusText_rare.SetText("6/7 Inactiv")
+			self.StatusText_rare.SetText("6/7 Inaktív")
 			self.StatusText_rare.Show()
 			
 			
@@ -561,7 +561,7 @@ class ItemTabBar(ui.Window):
 			self.CloseBut.SetUpVisual("d:/ymir work/ui/public/close_button_01.sub")
 			self.CloseBut.SetOverVisual("d:/ymir work/ui/public/close_button_02.sub")
 			self.CloseBut.SetDownVisual("d:/ymir work/ui/public/close_button_03.sub")
-			self.CloseBut.SetToolTipText("Inchide tab", 0, -23)
+			self.CloseBut.SetToolTipText("Tárgy kivétel", 0, -23)
 			self.CloseBut.SetEvent(self.DeleteMe)
 			self.CloseBut.SetPosition(0,0)
 			self.CloseBut.Show()
@@ -725,7 +725,7 @@ class ItemTabBar(ui.Window):
 			self.StatusText.SetText("Activ (%d%%)" %self.prob)
 			if ok == 1 or self.prob >= 90:
 				if self.prob >= 90:
-					chat.AppendChat(1,"Slot %d: Gata de schimbare" % (self.index+1))
+					chat.AppendChat(1,"Slot %d: FORGATÁS SIKERES" % (self.index+1))
 					self.bonusSelector.Finish()
 					return
 				self.values  = [player.GetItemAttribute(self.index, i) for i in range(0,5)]
@@ -818,7 +818,7 @@ class ItemTabBar(ui.Window):
 		def SetIndex(self,index):
 			self.index = index
 			self.bonusSelector.index = index
-			self.bonusSelector.Starter.SetText("Schimba ("+str(index+1)+") Start")
+			self.bonusSelector.Starter.SetText("Forgatás ("+str(index+1)+") indítás")
 			self.Update()
 			self.UpdateItem()
 			
@@ -904,7 +904,7 @@ class ItemTabBar(ui.Window):
 		
 		self.AddText = ui.TextLine()
 		self.AddText.SetParent(self.plusBar)
-		self.AddText.SetText("Trage itemul aici")
+		self.AddText.SetText("Húzd ide a tárgyat")
 		self.AddText.SetWindowVerticalAlignCenter()
 		self.AddText.SetWindowHorizontalAlignCenter()
 		self.AddText.SetVerticalAlignCenter()
@@ -995,7 +995,7 @@ class ItemTabBar(ui.Window):
 				
 			if player.SLOT_TYPE_INVENTORY == attachedSlotType:
 				self.AddTab(attachedSlotPos,attachedSlotVnum)
-				chat.AppendChat(2,"Item adaugat")
+				chat.AppendChat(2,"Tárgy hozzáadva")
 
 			mouseModule.mouseController.DeattachObject()
 		
@@ -1136,7 +1136,7 @@ class Bot(ui.BoardWithTitleBar):
 			self.maximise_but.SetUpVisual("d:/ymir work/ui/public/large_button_01.sub")
 			self.maximise_but.SetOverVisual("d:/ymir work/ui/public/large_button_02.sub")
 			self.maximise_but.SetDownVisual("d:/ymir work/ui/public/large_button_03.sub")
-			self.maximise_but.SetText("Marire")
+			self.maximise_but.SetText("Vissza")
 			self.maximise_but.SetEvent(self.ShowMainWindow)
 			self.maximise_but.Show()
 			
@@ -1146,7 +1146,7 @@ class Bot(ui.BoardWithTitleBar):
 			self.stop_but.SetUpVisual("d:/ymir work/ui/public/large_button_01.sub")
 			self.stop_but.SetOverVisual("d:/ymir work/ui/public/large_button_02.sub")
 			self.stop_but.SetDownVisual("d:/ymir work/ui/public/large_button_03.sub")
-			self.stop_but.SetText("Dezactivati")
+			self.stop_but.SetText("Deaktiválás")
 			self.stop_but.SetEvent(self.parent.deactivate_all)
 			self.stop_but.Show()
 			
@@ -1290,7 +1290,7 @@ class Bot(ui.BoardWithTitleBar):
 		ui.BoardWithTitleBar.__init__(self)
 		self.gameWindow = None
 		
-		self.SetTitleName("|cFFFFFF00|h Schimbator de bonusuri")
+		self.SetTitleName("|cFFFFFF00|h Syrius2 Bónusz forgató")
 		self.AddFlag("float")
 		self.AddFlag("movable")
 		self.SetPosition(30,30)
@@ -1310,7 +1310,7 @@ class Bot(ui.BoardWithTitleBar):
 		self.titleBar.MinimizeBut.SetUpVisual("d:/ymir work/ui/public/minimize_button_01.sub")
 		self.titleBar.MinimizeBut.SetOverVisual("d:/ymir work/ui/public/minimize_button_02.sub")
 		self.titleBar.MinimizeBut.SetDownVisual("d:/ymir work/ui/public/minimize_button_03.sub")
-		self.titleBar.MinimizeBut.SetToolTipText("Minimize", 0, -23)
+		self.titleBar.MinimizeBut.SetToolTipText("Minimalizálás", 0, -23)
 		self.titleBar.MinimizeBut.SetPosition(520 - self.titleBar.btnClose.GetWidth()-3- 32 - 3, 3)
 		self.titleBar.MinimizeBut.SetEvent(lambda: self.PinShow(1))
 		self.titleBar.MinimizeBut.Show()
@@ -1320,8 +1320,8 @@ class Bot(ui.BoardWithTitleBar):
 		self.titleBar.HelpBut.SetUpVisual("d:/ymir work/ui/public/small_button_01.sub")
 		self.titleBar.HelpBut.SetOverVisual("d:/ymir work/ui/public/small_button_02.sub")
 		self.titleBar.HelpBut.SetDownVisual("d:/ymir work/ui/public/small_button_03.sub")
-		self.titleBar.HelpBut.SetToolTipText("Ajutor", 0, -23)
-		self.titleBar.HelpBut.SetText("Ajutor")
+		self.titleBar.HelpBut.SetToolTipText("Segítség", 0, -23)
+		self.titleBar.HelpBut.SetText("Segítség")
 		self.titleBar.HelpBut.SetPosition(3, 0)
 		self.titleBar.HelpBut.SetToggleDownEvent(lambda: self.ToggleHelp(1))
 		self.titleBar.HelpBut.SetToggleUpEvent(lambda: self.ToggleHelp(0))
@@ -1336,7 +1336,7 @@ class Bot(ui.BoardWithTitleBar):
 		self.but_deactivate_all.SetUpVisual("d:/ymir work/ui/public/large_button_01.sub")
 		self.but_deactivate_all.SetOverVisual("d:/ymir work/ui/public/large_button_02.sub")
 		self.but_deactivate_all.SetDownVisual("d:/ymir work/ui/public/large_button_03.sub")
-		self.but_deactivate_all.SetText("Opriti toate")
+		self.but_deactivate_all.SetText("Leállítás")
 		self.but_deactivate_all.SetEvent(self.deactivate_all)
 		self.but_deactivate_all.Show()
 		
@@ -1346,12 +1346,12 @@ class Bot(ui.BoardWithTitleBar):
 		self.titleBar.but_deactivate_all.SetUpVisual("d:/ymir work/ui/public/small_button_01.sub")
 		self.titleBar.but_deactivate_all.SetOverVisual("d:/ymir work/ui/public/small_button_02.sub")
 		self.titleBar.but_deactivate_all.SetDownVisual("d:/ymir work/ui/public/small_button_03.sub")
-		self.titleBar.but_deactivate_all.SetText("Info")
+		self.titleBar.but_deactivate_all.SetText("Információ")
 		self.titleBar.but_deactivate_all.SetEvent(self.about)
 		self.titleBar.but_deactivate_all.Show()
 		self.titleName.SetPosition(60, 4)
 		
-		self.enable_rebuy = CheckBox("Cumpara automat")
+		self.enable_rebuy = CheckBox("Automatikus vásárlás")
 		self.enable_rebuy.Toggle()
 		self.enable_rebuy.Hide()
 		
@@ -1379,28 +1379,28 @@ class Bot(ui.BoardWithTitleBar):
 		
 		### NOW initialize the HELP stuff!
 		
-		self.help_add_item = HelpBar(0.8,'Pune un item aici.')
+		self.help_add_item = HelpBar(0.8,'Ide kell húzni a tárgyat.')
 		self.help_add_item.SetParent(self)
 		self.help_add_item.SetPosition(60,50)
 		
-		self.help_minimize = HelpBar(0.8,'Trageti spre margine pentru a micsora!',1)
+		self.help_minimize = HelpBar(0.8,'Húzd a széléhez hogy összemenjen!',1)
 		self.help_minimize.SetParent(self.titleBar)
 		self.help_minimize.SetWindowHorizontalAlignCenter()
 		self.help_minimize.SetPosition(100,-30)
 		
-		self.help_show_rare = HelpBar(0.85,'De aici puteti activa 6/7.')
+		self.help_show_rare = HelpBar(0.85,' ')
 		self.help_show_rare.SetParent(self)
 		# self.help_show_rare.SetPosition(35,312)
 		
-		self.help_rebuy = HelpBar(0.5,'Daca cumpar mai multe bonusuri')
+		self.help_rebuy = HelpBar(0.5,'Automatikusan vásárlás')
 		self.help_rebuy.SetParent(self)
 		# self.help_rebuy.SetPosition(25,297)
 		
-		self.help_stop_all = HelpBar(0.8,'Opriti toate procesele',1)
+		self.help_stop_all = HelpBar(0.8,'Mindent leállít',1)
 		self.help_stop_all.SetParent(self.titleBar)
 		self.help_stop_all.SetPosition(3+5+self.titleBar.HelpBut.GetWidth()*1.2,-30)
 		
-		self.help_duration = HelpBar(0.8,'Incetineste procesele.',1)
+		self.help_duration = HelpBar(0.8,'Forgatás sebessége.',1)
 		self.help_duration.SetParent(self)
 		
 		
@@ -1465,7 +1465,7 @@ class Bot(ui.BoardWithTitleBar):
 		if self.AboutWindow:
 			if self.AboutWindow.x_counter > 1:
 				self.AboutWindow.x_counter -=1
-				self.AboutWindow.text6.SetText("Timp: %0.1f" % (self.AboutWindow.x_counter/45.0))
+				self.AboutWindow.text6.SetText("Eltûnik: %0.1f" % (self.AboutWindow.x_counter/45.0))
 			elif self.AboutWindow.x_counter == 1:
 				self.AboutWindow.Hide()
 				# self.AboutWindow.Delete()
@@ -1565,30 +1565,30 @@ class Bot(ui.BoardWithTitleBar):
 		self.AboutWindow.text2 = ui.TextLine()
 		self.AboutWindow.text2.SetParent(self.AboutWindow)
 		self.AboutWindow.text2.SetPosition(8,18)
-		self.AboutWindow.text2.SetText("Metin2 New")
+		self.AboutWindow.text2.SetText("Syrius2")
 		self.AboutWindow.text2.Show()
 		
 		self.AboutWindow.text3 = ui.TextLine()
 		self.AboutWindow.text3.SetParent(self.AboutWindow)
 		self.AboutWindow.text3.SetPosition(8,18+13)
-		self.AboutWindow.text3.SetText("Ideile noi sunt mereu bine venite!")
+		self.AboutWindow.text3.SetText("Kérlek BUG esetén jelents azt egy GM-nek")
 		self.AboutWindow.text3.Show()
 		
 		self.AboutWindow.text4 = ui.TextLine()
 		self.AboutWindow.text4.SetParent(self.AboutWindow)
 		self.AboutWindow.text4.SetPosition(8,18+13*3)
-		self.AboutWindow.text4.SetText("Te asteptam pe forumul nostru")
+		self.AboutWindow.text4.SetText("A BUG KIHASZNÁLÁSA,")
 		self.AboutWindow.text4.Show()
 		
 		self.AboutWindow.text5 = ui.TextLine()
 		self.AboutWindow.text5.SetParent(self.AboutWindow)
 		self.AboutWindow.text5.SetPosition(8,18+13*4)
-		self.AboutWindow.text5.SetText("pentru a-ti exprima opinia.")
+		self.AboutWindow.text5.SetText("VÉGLEGES KITILTÁSSAL JÁR!")
 		self.AboutWindow.text5.Show()
 		self.AboutWindow.text6 = ui.TextLine()
 		self.AboutWindow.text6.SetParent(self.AboutWindow)
 		self.AboutWindow.text6.SetPosition(200,18+13*5)
-		self.AboutWindow.text6.SetText("Timp: %d" % self.AboutWindow.x_counter)
+		self.AboutWindow.text6.SetText("Eltûnik: %d" % self.AboutWindow.x_counter)
 		self.AboutWindow.text6.Show()
 		
 		

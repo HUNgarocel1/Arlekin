@@ -1,10 +1,10 @@
 import ui, event, constInfo, app, uiCommon, chat, net, playerSettingModule, player, localeInfo, wndMgr
 
 JOB_NAME_DICT = {
-	0	:	['Testi harcos','Ment√°lis harcos'],
-	1	:	['T≈ër Nindzsa','√çj√°sz nindzsa'],
-	2	:	['M√°gikus fegyver','S√∂t√©t m√°gia'],
-	3	:	['S√°rk√°ny hatalom','Gy√≥gy√≠t√°s hatalom'],
+	0	:	['Testi harcos','Ment·lis harcos'],
+	1	:	['Tır Nindzsa','Õj·sz nindzsa'],
+	2	:	['M·gikus fegyver','SˆtÈt m·gia'],
+	3	:	['S·rk·ny hatalom','GyÛgyÌt·s hatalom'],
 	# 4	:	['Lycan Instinct','N.A.']
 }
 
@@ -132,7 +132,7 @@ class JobSelectWindow(ui.ScriptWindow):
 			
 	def SelectJobFirstQuestion(self):
 		self.questionDialog = uiCommon.QuestionDialog()
-		self.questionDialog.SetText("Biztos vagy benne hogy: %s v√°lasztod?" % JOB_NAME_DICT[self.GetRealRace()][0])
+		self.questionDialog.SetText("Biztos vagy benne hogy: %s v·lasztod?" % JOB_NAME_DICT[self.GetRealRace()][0])
 		self.questionDialog.SetAcceptEvent(ui.__mem_func__(self.SelectJobFirst))
 		self.questionDialog.SetCancelEvent(ui.__mem_func__(self.__OnCloseQuestionDialog))
 		self.questionDialog.Open()
@@ -145,7 +145,7 @@ class JobSelectWindow(ui.ScriptWindow):
 		
 	def SelectJobSecondQuestion(self):
 		self.questionDialog = uiCommon.QuestionDialog()
-		self.questionDialog.SetText("Biztos vagy benne hogy: %s v√°lasztod?" % JOB_NAME_DICT[self.GetRealRace()][1])
+		self.questionDialog.SetText("Biztos vagy benne hogy: %s v·lasztod?" % JOB_NAME_DICT[self.GetRealRace()][1])
 		self.questionDialog.SetAcceptEvent(ui.__mem_func__(self.SelectJobSecond))
 		self.questionDialog.SetCancelEvent(ui.__mem_func__(self.__OnCloseQuestionDialog))
 		self.questionDialog.Open()
@@ -166,7 +166,7 @@ class JobSelectWindow(ui.ScriptWindow):
 
 	def Close(self):
 		self.wndpopupdialog = uiCommon.PopupDialog()
-		self.wndpopupdialog.SetText("K√∂telez≈ë k√©pess√©get v√°lasztanod.")
+		self.wndpopupdialog.SetText("Kˆtelezı kÈpessÈget v·lasztanod.")
 		self.wndpopupdialog.Open()
 		
 	def RealClose(self):

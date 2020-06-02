@@ -38,7 +38,7 @@ window = {
 					
 					"children":
 					(
-						{ "name" : "TitleName", "type":"text", "x":0, "y":-1, "text":"K√©pess√©g v√°laszt√°s", "all_align":"center" },
+						{ "name" : "TitleName", "type":"text", "x":0, "y":-1, "text":"KÈpessÈg v·laszt·s", "all_align":"center" },
 					),
 				},	
 				

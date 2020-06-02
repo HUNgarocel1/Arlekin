@@ -50,7 +50,7 @@ window = {
 					"type":"button",
 					"x":7,
 					"y":8,
-					"tooltip_text" : "Aranjare Iteme",
+					"tooltip_text" : "Frissítés",
 					"horizontal_align":"left",
 					"default_image" : "d:/ymir work/ui/public/button_refresh_02.sub",
 					"over_image" : "d:/ymir work/ui/public/button_refresh_01.sub",

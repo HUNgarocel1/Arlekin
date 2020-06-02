@@ -324,7 +324,7 @@ window = {
 
 			"x" : SCREEN_WIDTH - 178,
 			"y" : 3 + Y_ADD_POSITION,
-			"tooltip_text" : "Bani",
+			"tooltip_text" : "Pénztárca",
 
 			"default_image" : ROOT + "TaskBar/Ex_gemshop_button_01.tga",
 			"over_image" : ROOT + "TaskBar/Ex_gemshop_button_02.tga",
