@@ -1805,9 +1805,9 @@
 52706	Rénszarvas tanúsítv. (n)	Egy Fiatal rénszarvas (nõstény) tulajdonosi igazolása
 52707	Dragor tanúsítvány	Egy Fiatal Dragor tulajdonosi tanúsítványa
 52708	Moa tanúsítvány	Ez a tanúsítvány igazolja, hogy egy Fiatal Moa tulajdonosa vagy.
-53001		
+53001	Tûzfõnix pecsét	Ez a pecsét tovább húzható, további információért keresd fel Seon-Pyeong-ot..
 53002	Szarvasgida pecsét	Ezzel a pecséttel tudod megidézni az aranyos Rénszarvas gidát.
-53003	Jégfõnix pecsét	Ezzel a pecséttel idézheted meg barátod a Jégfõnixet.
+53036	Bruce pecsét	Ez a pecsét tovább húzható, további információért keresd fel Seon-Pyeong-ot..
 53005	Baby Azrael	A démonok vezetõjének mini változata rendkívül gyengéd, 1500 TP és 15% támadás bónuszt biztosít a Démon Torony valamint az Ördög Katakombája 2. emeletétõl kezdve.
 53006	Baby Azrael (arany)	A démonok vezetõjének mini változata rendkívül gyengéd, 1500 TP és 15% támadás bónuszt biztosít a Démon Torony valamint az Ördög Katakombája 2. emeletétõl kezdve.
 53007	Bambi pecsét	Ezt a pecsétet használhatod fiatal rénszarvasod, Bambi megidézésére.
@@ -2404,3 +2404,8 @@
 90011	Törzs	Építõanyag a Céhépülethez.
 90012	Furnérlemez	Építõanyag a Céhépülethez.
 90013		
+55169	PvP Pont	PvP Event nyereményként juthatsz hozzá.
+55179	WAR Pont	WAR Event nyereményként juthatsz hozzá.
+55189	Jegy	Ezzel a tárggyal [ST]-tõl vagy [DEV]-tõl tudsz Egyedi kosztümöt igényelni.
+55199	Jegy	Ezzel a tárggyal [ST]-tõl vagy [DEV]-tõl tudsz Egyedi fegyvert igényelni.
+55200	Jegy	Ezzel a tárggyal [ST]-tõl vagy [DEV]-tõl tudsz Egyedi nevet igényelni.

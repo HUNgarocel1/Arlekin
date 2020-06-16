@@ -1159,14 +1159,14 @@ TITILE_NAME_9	Hercegnõ
 TITILE_NAME_10	A kemény fiú.
 TITILE_NAME_11	Vonatkerék pumpáló
 TITILE_NAME_12	Zsoldos
-TITILE_NAME_13	#BOSS
-TITILE_NAME_14	Rettenthetetlen
-TITILE_NAME_15	Halhatatlan
-TITILE_NAME_16	OPT mester
-TITILE_NAME_17	Kiccsiiillaag
-TITILE_NAME_18	#Pákó
-TITILE_NAME_19	Prémium Játékos
-TITILE_NAME_20	Syrius2
+TITILE_NAME_13	[\WAR/]
+TITILE_NAME_14	[*KING*]
+TITILE_NAME_15	[*QUEEN*]
+TITILE_NAME_16	#Harcosokat megfélemlítõ
+TITILE_NAME_17	#Ninjákat megfélemlítõ
+TITILE_NAME_18	#Surákat megfélemlítõ
+TITILE_NAME_19	#Sámánokat megfélemlítõ
+TITILE_NAME_20	[Syrius2 VIP]
 RECV_TITLE_ANSWER_0	Ismeretlen hiba.
 RECV_TITLE_ANSWER_1	Ön már felszerelte ezt a titulust.
 RECV_TITLE_ANSWER_2	Ezt a titulust nem lehet feloldani.

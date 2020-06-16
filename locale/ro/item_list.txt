@@ -6133,7 +6133,7 @@
 50509	ETC	icon/item/book_18.tga
 50510	ETC	icon/item/book_18.tga
 50511	ETC	icon/item/book_18.tga
-50512	ETC	icon/item/71022.tga
+50512	ETC	icon/item/50512.tga
 50513	ETC	icon/item/50513.tga
 50527	ETC	icon/item/50527.tga	
 50569	ETC	icon/item/50569.tga
@@ -7733,43 +7733,15 @@
 62598	ARMOR	icon/item/62598.tga
 62599	ARMOR	icon/item/62599.tga
 62600	ARMOR	icon/item/62600.tga
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+55109	WEAPON	icon/item/55109.tga	d:/ymir work/item/weapon/55109.gr2
+55119	WEAPON	icon/item/55119.tga	d:/ymir work/item/weapon/55119.gr2
+55129	WEAPON	icon/item/55129.tga	d:/ymir work/item/weapon/55129.gr2
+55139	WEAPON	icon/item/55139.tga	d:/ymir work/item/weapon/55139.gr2
+55149	WEAPON	icon/item/55149.tga	d:/ymir work/item/weapon/55149.gr2
+55159	WEAPON	icon/item/55159.tga	d:/ymir work/item/weapon/55159.gr2
+55169	ETC	icon/item/pvppoints.tga
+55179	ETC	icon/item/warpoints.tga
+55189	ETC	icon/item/55189.tga
+55199	ETC	icon/item/55199.tga
+55200	ETC	icon/item/55200.tga
+62601	ARMOR	icon/item/62601.tga

@@ -2331,6 +2331,13 @@ Group ShapeData
 		SourceSkin			"assasin_soccer1_Germany.dds"
 		TargetSkin			"assasin_soccer1_germanya544.dds"
 	}
+	Group ShapeData228
+	{	
+		ShapeIndex			62601
+		Model				"assassin_6_1.GR2"
+		SourceSkin			"assassin_6_1.dds"
+		TargetSkin			"assassin_6_15.dds"
+	}
 }
 
 Group AttachingData
