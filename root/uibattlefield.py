@@ -228,10 +228,6 @@ class BattleFieldWindow(ui.ScriptWindow):
 				self.notice.SetText(uiScriptLocale.BATTLE_FIELD_OPERATION_TIME_NA)
 			else:
 				self.isOpen = 0
-
-	def RefreshButtons(self):
-		if self.miniMap:
-			self.miniMap.RefreshBattleButton(self.isOpen, self.isEvent)
 					
 	def ButtonToolTipProgress(self):
 		pass

@@ -93,18 +93,6 @@ if app.ENABLE_BATTLE_FIELD:
 						"over_image" : ROOT + "atlas_open_over.sub",
 						"down_image" : ROOT + "atlas_open_down.sub",
 					},
-					## BattleButton
-					{
-						"name" : "BattleButton",
-						"type" : "button",
-
-						"x" : 6,
-						"y" : 105,
-
-						"default_image" : ROOT + "battle_open_default.tga",
-						"over_image" : ROOT + "battle_open_over.tga",
-						"down_image" : ROOT + "battle_open_down.tga",
-					},
 					## ServerInfo
 					{
 						"name" : "ServerInfo",

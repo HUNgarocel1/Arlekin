@@ -777,8 +777,8 @@ class InventoryWindow(ui.ScriptWindow):
 		
 	def __ClickStartButton(self):
 		startQuestionDialog = uiCommon.QuestionDialog2()
-		startQuestionDialog.SetText1("A leltaradat teljesen rendbe tudom szedni.")
-		startQuestionDialog.SetText2("Viszont ezt azt atpakolok nem gond?")
+		startQuestionDialog.SetText1("A leltáradat teljesen rendbe tudom szedni.")
+		startQuestionDialog.SetText2("Viszont ezt azt átpakolok ha nem gond.")
 		startQuestionDialog.SetAcceptEvent(ui.__mem_func__(self.__StartAccept))
 		startQuestionDialog.SetCancelEvent(ui.__mem_func__(self.__StartCancel))
 		startQuestionDialog.Open()

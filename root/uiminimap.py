@@ -234,10 +234,6 @@ class MiniMap(ui.ScriptWindow):
 		self.tooltipAtlasOpen.SetText(localeInfo.MINIMAP_SHOW_AREAMAP)
 		self.tooltipAtlasOpen.Show()
 		self.tooltipInfo = MapTextToolTip()
-		if app.ENABLE_BATTLE_FIELD:
-			self.tooltipBattleButton = MapTextToolTip()
-			self.tooltipBattleButton.SetText(localeInfo.MAP_BATTLE_FIELD)
-			self.tooltipBattleButton.Show()
 		self.tooltipInfo.Show()
 
 		if miniMap.IsAtlas():
@@ -282,8 +278,6 @@ class MiniMap(ui.ScriptWindow):
 		self.tooltipAtlasOpen = 0
 		self.tooltipInfo = None
 		self.serverInfo = None
-		if app.ENABLE_BATTLE_FIELD:
-			self.tooltipBattleButton = 0
 
 	def SetMapName(self, mapName):
 		self.mapName=mapName
@@ -346,8 +340,6 @@ class MiniMap(ui.ScriptWindow):
 			self.positionInfo = self.GetChild("PositionInfo")
 			self.observerCount = self.GetChild("ObserverCount")
 			self.serverInfo = self.GetChild("ServerInfo")
-			if app.ENABLE_BATTLE_FIELD:
-				self.battleButton = self.GetChild("BattleButton")
 		except:
 			import exception
 			exception.Abort("MiniMap.LoadWindow.Bind")
@@ -378,10 +370,6 @@ class MiniMap(ui.ScriptWindow):
 
 		(ButtonPosX, ButtonPosY) = self.AtlasShowButton.GetGlobalPosition()
 		self.tooltipAtlasOpen.SetTooltipPosition(ButtonPosX, ButtonPosY)
-		if app.ENABLE_BATTLE_FIELD:
-			self.battleButton.SetEvent(ui.__mem_func__(self.OpenBattleField))
-			(ButtonPosX, ButtonPosY) = self.battleButton.GetGlobalPosition()
-			self.tooltipBattleButton.SetTooltipPosition(ButtonPosX, ButtonPosY)
 
 		self.ShowMiniMap()
 
@@ -463,13 +451,7 @@ class MiniMap(ui.ScriptWindow):
 		if True == self.AtlasShowButton.IsIn():
 			self.tooltipAtlasOpen.Show()
 		else:
-			self.tooltipAtlasOpen.Hide()
-
-		if app.ENABLE_BATTLE_FIELD:
-			if True == self.battleButton.IsIn():
-				self.tooltipBattleButton.Show()
-			else:
-				self.tooltipBattleButton.Hide()			
+			self.tooltipAtlasOpen.Hide()		
 			
 	def OnRender(self):
 		(x, y) = self.GetGlobalPosition()
@@ -520,31 +502,7 @@ class MiniMap(ui.ScriptWindow):
 				if self.wndBattleField.IsShow():
 					self.wndBattleField.Close()
 				else:
-					self.wndBattleField.Open()
-					
-		def SetBattleInfo(self, openTime, closeTime, isOpen, isEvent):
-			self.RefreshBattleButton(isOpen, isEvent)
-			
-			if self.wndBattleField:
-				self.wndBattleField.SetOpenInfo(openTime, closeTime, isOpen, isEvent)
-				
-		def RefreshBattleButton(self, isOpen, isEvent):
-			if isOpen:
-				if isEvent:
-					self.battleButton.SetUpVisual("d:/ymir work/ui/minimap/E_open_default.tga")
-					self.battleButton.SetOverVisual("d:/ymir work/ui/minimap/E_open_over.tga")
-					self.battleButton.SetDownVisual("d:/ymir work/ui/minimap/E_open_down.tga")
-				else:
-					self.battleButton.SetUpVisual("d:/ymir work/ui/minimap/battle_open_default.tga")
-					self.battleButton.SetOverVisual("d:/ymir work/ui/minimap/battle_open_over.tga")
-					self.battleButton.SetDownVisual("d:/ymir work/ui/minimap/battle_open_down.tga")
-				
-				if player.GetStatus(player.LEVEL) >= 50:
-					self.battleButton.EnableFlash()
-			else:
-				self.battleButton.SetUpVisual(self.battleButton.GetDownVisualFileName())
-				self.battleButton.SetOverVisual(self.battleButton.GetDownVisualFileName())
-				self.battleButton.SetDownVisual(self.battleButton.GetDownVisualFileName())		
+					self.wndBattleField.Open()	
 		
 	def ShowMiniMap(self):
 		if not self.canSeeInfo:

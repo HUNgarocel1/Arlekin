@@ -3184,11 +3184,6 @@ class GameWindow(ui.ScriptWindow):
 				if self.interface.wndMiniMap:
 					if self.interface.wndMiniMap.wndBattleField:
 						self.interface.wndMiniMap.wndBattleField.AddRankingMember(position, type, name, empire, score)
-						
-		def BINARY_AddBattleTime(self, openTime, closeTime, isOpen, isEvent):
-			if self.interface:
-				if self.interface.wndMiniMap:
-					self.interface.wndMiniMap.SetBattleInfo(openTime, closeTime, isOpen, isEvent)
 					
 		def ResetUsedBP(self, usedBP):
 			if self.interface:
