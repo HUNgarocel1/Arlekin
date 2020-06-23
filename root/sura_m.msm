@@ -741,7 +741,7 @@ Group ShapeData
 {
 	PathName	"d:/ymir Work/pc/sura/"
 
-	ShapeDataCount				999
+	ShapeDataCount				5000
 
 	Group ShapeData00
 	{
@@ -2229,6 +2229,330 @@ Group ShapeData
 		Model				"sura_6_1.GR2"
 		SourceSkin			"sura_6_1.dds"
 		TargetSkin			"sura_6_10.dds"
+	}
+	Group ShapeData1107
+	{
+		ShapeIndex			461
+		Model				"sura_jinhon.GR2"
+		SourceSkin			"sura_jinhon.DDS"
+		TargetSkin			"sura_mageuk_e01.dds"
+	}
+	Group ShapeData1108
+	{
+		ShapeIndex			450
+		Model				"sura_4-1.gr2"
+		SourceSkin			"sura_4-1.dds"	
+		TargetSkin			"sura_4-3.dds"
+	}
+	Group ShapeData1109
+	{
+		ShapeIndex			440
+		Model				"sura_4-1.gr2"
+		SourceSkin			"sura_4-1.dds"	
+		TargetSkin			"sura_4_4.dds"
+	}
+	Group ShapeData1110
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		ShapeIndex			432	
+		Model				"sura_lordcopy.GR2"	
+		SourceSkin			"sura_king01.dds"
+		TargetSkin			"holy_sura_king01.dds"
+
+		SourceSkin2			"sura_king01_cloak.dds"
+		TargetSkin2			"sura_king01_cloak.dds"
+
+	
+	}
+	Group ShapeData1111
+	{
+		ShapeIndex			441
+		Model				"sura_4-1.gr2"
+		SourceSkin			"sura_4-1.dds"	
+		TargetSkin			"sura_e4_1.dds"
+	}
+	Group ShapeData1112
+	{
+		ShapeIndex			460
+		Model				"sura_jinhon.GR2"
+		SourceSkin			"sura_jinhon.dds"
+		TargetSkin			"sura_jinhon_e01.dds"
+	}
+	Group ShapeData1113
+	{
+		ShapeIndex			462
+		Model				"sura_jinhon.GR2"
+		SourceSkin			"sura_jinhon.dds"
+		TargetSkin			"sura_biun_e01.dds"
+	}	
+	Group ShapeData1114
+	{
+		ShapeIndex			463
+		Model				"sura_saryeong.GR2"
+		SourceSkin			"sura_saryeong.dds"
+		TargetSkin			"sura_saryeong_e01.dds"
+
+		SourceSkin2			"sura_saryeong_cloak.dds"
+		TargetSkin2			"sura_saryeong_cloak_e01.dds"
+	}
+	Group ShapeData1115
+	{
+		ShapeIndex			464
+		Model				"sura_saryeong.GR2"
+		SourceSkin			"sura_saryeong.dds"
+		TargetSkin			"sura_eumyang_e01.dds"
+                                           
+		SourceSkin2			"sura_saryeong_cloak.dds"
+		TargetSkin2			"sura_eumyang_cloak_e01.dds"
+	}
+	Group ShapeData1116
+	{
+		ShapeIndex			465
+		Model				"sura_saryeong.GR2"
+		SourceSkin			"sura_saryeong.dds"
+		TargetSkin			"sura_heukbi_e01.dds"
+
+		SourceSkin2			"sura_saryeong_cloak.dds"
+		TargetSkin2			"sura_heukbi_cloak_e01.dds"
+	}
+	Group ShapeData1117
+	{
+		ShapeIndex			466
+		Model				"sura_unra.GR2"
+		SourceSkin			"sura_unra.dds"
+		TargetSkin			"sura_unra_e01.dds"
+
+		SourceSkin2			"sura_unra_cloak.dds"
+		TargetSkin2			"sura_unra_e01_cloak.dds"
+	}
+	Group ShapeData1118
+	{
+		ShapeIndex			467
+		Model				"sura_unra.GR2"
+		SourceSkin			"sura_unra.dds"
+		TargetSkin			"sura_gwimyeon_e01.dds"
+
+		SourceSkin2			"sura_unra_cloak.dds"
+		TargetSkin2			"sura_gwimyeon_e01_cloak.dds"
+
+	}
+	Group ShapeData1119
+	{
+		ShapeIndex			468
+		Model				"sura_maryeong.GR2"
+		SourceSkin			"sura_maryeong.dds"
+		TargetSkin			"sura_maryeong_e01.dds"
+
+		SourceSkin2			"sura_unra_cloak.dds"
+		TargetSkin2			"sura_maryeong_e01_cloak.dds"
+
+	}
+	Group ShapeData1120
+	{
+		ShapeIndex			469
+		Model				"sura_4-1.GR2"
+		SourceSkin			"sura_4-1.dds"
+		TargetSkin			"sura_4-1_e01.dds"
+	}
+	Group ShapeData1121
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		ShapeIndex			434	
+		Model				"sura_lordcopy.GR2"	
+		SourceSkin			"sura_king01.dds"
+		TargetSkin			"sura_king03.dds"
+
+		SourceSkin2			"sura_king01_cloak.dds"
+		TargetSkin2			"sura_king03_cloak.dds"
+
+	
+	}
+	Group ShapeData1122
+	{
+		ShapeIndex			442
+		Model				"sura_4-1.GR2"
+		SourceSkin			"sura_4-1.dds"
+		TargetSkin			"sura_4_5.dds"
+	}
+	Group ShapeData1123
+	{
+		ShapeIndex			443
+		Model				"sura_4-1.GR2"
+		SourceSkin			"sura_4-1.dds"
+		TargetSkin			"sura_4_6.dds"
+	}
+	Group ShapeData1124
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		ShapeIndex			444	
+		Model				"sura_lordcopy.GR2"	
+		SourceSkin			"sura_king01.dds"
+		TargetSkin			"holy_sura_king02.dds"
+
+		SourceSkin2			"sura_king01_cloak.dds"
+		TargetSkin2			"sura_holy02_cloak.dds"
+
+	
+	}
+	Group ShapeData1125
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		ShapeIndex			445	
+		Model				"sura_lordcopy.GR2"	
+		SourceSkin			"sura_king01.dds"
+		TargetSkin			"sura_baijin.dds"
+
+		SourceSkin2			"sura_king01_cloak.dds"
+		TargetSkin2			"sura_king01_cloak.dds"
+
+	
+	}
+	Group ShapeData1126
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		ShapeIndex			446	
+		Model				"sura_lordcopy.GR2"	
+		SourceSkin			"sura_king01.dds"
+		TargetSkin			"sura_huangjin.dds"
+
+		SourceSkin2			"sura_king01_cloak.dds"
+		TargetSkin2			"sura_king01_cloak.dds"
+
+	
+	}
+	Group ShapeData1127
+	{
+		ShapeIndex			447
+		Model				"sura_4-1.gr2"
+		SourceSkin			"sura_4-1.dds"	
+		TargetSkin			"sura_4_7.dds"
+	}
+	Group ShapeData1128
+	{
+		ShapeIndex			448
+		Model				"sura_4-1.gr2"
+		SourceSkin			"sura_4-1.dds"	
+		TargetSkin			"sura_4_8.dds"
+	}
+	Group ShapeData1129
+	{
+		ShapeIndex			449
+		Model				"sura_4-1.gr2"
+		SourceSkin			"sura_4-1.dds"	
+		TargetSkin			"sura_4_9.tga"
+	}
+	Group ShapeData1130
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		ShapeIndex			451	
+		Model				"black_master_sura.gr2"	
+		SourceSkin			"black_master_sura.dds"
+		TargetSkin			"black_master_sura.dds"	
+	
+		SourceSkin2			"black_master_sura_base.dds"
+		TargetSkin2			"black_master_sura_base.dds"
+	}
+	Group ShapeData1131
+	{
+		SpecialPath			"d:/ymir Work/item/suramaschio/"
+		ShapeIndex			452	
+		Model				"suram_phill_infinitymetin.GR2"	
+	}
+	Group ShapeData1132
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			453
+		Model				"sura_4-1.gr2"
+		SourceSkin			"sura_4-1.dds"	
+		TargetSkin			"sura_4_10.dds"
+	}
+	Group ShapeData1133
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			454	
+		Model				"sura_uni_1.GR2"	
+	}
+	Group ShapeData1134
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			455	
+		Model				"sura_uni_2.GR2"	
+	}
+	Group ShapeData1135
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			456	
+		Model				"sura_120.GR2"	
+	}
+	Group ShapeData1136
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			457
+		Model				"sura_god.gr2"
+		SourceSkin			"sura_god.tga"	
+		TargetSkin			"sura_god.tga"
+	}
+	Group ShapeData1137
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			458
+		Model				"wuzhein_sura_male.gr2"
+		SourceSkin			"wuzhein_sura_male.dds"	
+		TargetSkin			"wuzhein_sura_male.dds"
+	}
+	Group ShapeData1138
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			459	
+		Model				"sura_1152.GR2"	
+	}
+	Group ShapeData1139
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			470	
+		Model				"baso_arcobaleno_sura_m.GR2"	
+	}
+	Group ShapeData1140
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			471	
+		Model				"baso_millennare_sura_m.GR2"	
+	}
+	Group ShapeData1141
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		
+		ShapeIndex			472	
+		Model				"basobad_finale_sura_m.GR2"	
+	}
+	Group ShapeData1142
+	{
+		SpecialPath			"d:/ymir work/textures/minoarmorset/"
+		
+		ShapeIndex			473
+		Model				"male_mino_sura.gr2"
+		SourceSkin			"mino_armor_male.dds"	
+		TargetSkin			"mino_armor_male.dds"
+	}
+	Group ShapeData1143
+	{
+		SpecialPath			"d:/ymir work/pc/sura/"
+		ShapeIndex			474
+		Model				"sura_lordcopy.GR2"	
+		SourceSkin			"sura_king01.dds"
+		TargetSkin			"sura_king02.dds"	
+	
+		SourceSkin2			"sura_king02_cloak.dds"
+		TargetSkin2			"sura_king02_cloak.dds"
 	}
 }
 

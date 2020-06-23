@@ -690,7 +690,7 @@ Group ShapeData
 {
 	PathName	"d:/ymir Work/pc/warrior/"
 
-	ShapeDataCount			999
+	ShapeDataCount			5000
 	Group ShapeData00
 	{
 		ShapeIndex			0
@@ -2247,6 +2247,311 @@ Group ShapeData
 		Model				"warrior_soccer1_Germany.GR2"
 		SourceSkin			"warrior_soccer1_Germany.dds"
 		TargetSkin			"warrior_soccer1_germany1aq.dds"	
+	}
+	Group ShapeData1107
+	{
+		ShapeIndex			450
+		Model				"warrior_4-1.gr2"
+		SourceSkin			"warrior_4-1.dds"	
+		TargetSkin			"warrior_4_3.dds"
+	}
+	Group ShapeData1108
+	{
+		ShapeIndex			461
+		Model				"warrior_nahan.gr2"
+		SourceSkin			"warrior_nahan.dds"
+		TargetSkin			"warrior_giryung_e01.dds"
+	}
+	Group ShapeData1109
+	{
+		ShapeIndex			460
+		Model				"warrior_nahan.gr2"
+		SourceSkin			"warrior_nahan.dds"
+		TargetSkin			"warrior_nahan_e01.dds"
+	}
+	Group ShapeData1110
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		
+		ShapeIndex			440
+		Model				"warrior_4-1.gr2"
+		SourceSkin			"warrior_4-1.dds"	
+		TargetSkin			"warrior_4_4.dds"
+	}
+	Group ShapeData1111
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+
+		ShapeIndex			432	
+		Model				"warrior_lordcopy.GR2"	
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"holy_kriger_king01.dds"
+	}
+	Group ShapeData1112
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		
+		ShapeIndex			433
+		Model				"warrior_heaven_1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4-1.dds"
+	}
+	Group ShapeData1113
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		
+		ShapeIndex			441
+		Model				"warrior_4-1.gr2"
+		SourceSkin			"warrior_4-1.dds"	
+		TargetSkin			"warrior_e4_1.dds"
+	}
+	Group ShapeData1114
+    {
+        ShapeIndex            900   
+        LOCAL_Model            "season1/pc/warrior/warrior_lordcopy.GR2"
+    } 
+	Group ShapeData1115
+	{
+		ShapeIndex			462
+		Model				"warrior_nahan.gr2"
+		SourceSkin			"warrior_nahan.dds"
+		TargetSkin			"warrior_jaho_e01.dds"
+	}
+	Group ShapeData1116
+	{
+		ShapeIndex			463
+		Model				"warrior_saja.gr2"
+		SourceSkin			"warrior_saja.dds"
+		TargetSkin			"warrior_saja_e01.dds"			
+
+	}
+	Group ShapeData1117
+	{
+		ShapeIndex			464
+		Model				"warrior_saja.gr2"
+		SourceSkin			"warrior_saja.dds"
+		TargetSkin			"warrior_jain_e01.dds"
+	}
+	Group ShapeData1118
+	{
+		ShapeIndex			465
+		Model				"warrior_saja.gr2"
+		SourceSkin			"warrior_saja.dds"
+		TargetSkin			"warrior_moryong_e01.dds"
+	}
+	Group ShapeData1119
+	{
+		ShapeIndex			466
+		Model				"warrior_cheongrin.gr2"
+		SourceSkin			"warrior_cheongrin.dds"
+		TargetSkin			"warrior_cheongrin_e01.dds"
+	}
+	Group ShapeData1120
+	{
+		ShapeIndex			467
+		Model				"warrior_cheongrin.gr2"
+		SourceSkin			"warrior_cheongrin.dds"
+		TargetSkin			"warrior_geumrin_e01.dds"
+	}
+	Group ShapeData1121
+	{
+		ShapeIndex			468
+		Model				"warrior_yongsin.GR2"
+		SourceSkin			"warrior_yongsin.dds"
+		TargetSkin			"warrior_yongsin_e01.dds"
+	}
+	Group ShapeData1122
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			469
+		Model				"warrior_4-1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4-1_e01.dds"
+	}
+	Group ShapeData1123
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+
+		ShapeIndex			434	
+		Model				"warrior_lordcopy.GR2"	
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"warrior_king03.dds"
+	}
+	Group ShapeData1124
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			442
+		Model				"warrior_4-1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4_5.dds"
+	}
+	Group ShapeData1125
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			443
+		Model				"warrior_4-1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4_6.dds"
+	}
+	Group ShapeData1126
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+
+		ShapeIndex			444	
+		Model				"warrior_lordcopy.GR2"	
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"holy_kriger_king02.dds"
+	}
+	Group ShapeData1127
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+
+		ShapeIndex			480	
+		Model				"kriger zombi.GR2"	
+		SourceSkin			"zombie_god.dds"
+		TargetSkin			"zombie_god.dds"
+	}
+	Group ShapeData1128
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+
+		ShapeIndex			445	
+		Model				"warrior_lordcopy.GR2"	
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"warrior_baijin.dds"
+	}
+	Group ShapeData1129
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+
+		ShapeIndex			446	
+		Model				"warrior_lordcopy.GR2"	
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"warrior_huangjin.dds"
+	}
+	Group ShapeData1130
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			447
+		Model				"warrior_4-1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4_7.dds"
+	}
+	Group ShapeData1131
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			448
+		Model				"warrior_4-1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4_8.dds"
+	}
+	Group ShapeData1132
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			449
+		Model				"warrior_4-1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4_9.tga"
+	}
+	Group ShapeData1133
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			451
+		Model				"warrior_m2m_final.gr2"
+		SourceSkin			"warrior_m2m_final.dds"
+		TargetSkin			"warrior_m2m_final.dds"
+	}
+	Group ShapeData1134
+	{	
+		SpecialPath			"d:/ymir Work/item/warmaschio/"
+		ShapeIndex			452
+		Model				"warmaschio_phill_infinitymetin.GR2"
+	}
+	Group ShapeData1135
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			453
+		Model				"warrior_4-1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4_10.dds"
+	}
+	Group ShapeData1136
+	{	
+		SpecialPath			"d:/ymir work/pc/warrior/"
+		ShapeIndex			454
+		Model				"warrior_uni_1.GR2"
+	}
+	Group ShapeData1137
+	{	
+		SpecialPath			"d:/ymir work/pc/warrior/"
+		ShapeIndex			455
+		Model				"warrior_uni_2.GR2"
+	}
+	Group ShapeData1138
+	{	
+		SpecialPath			"d:/ymir work/pc/warrior/"
+		ShapeIndex			456
+		Model				"warrior_120.GR2"
+	}
+	Group ShapeData1139
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			457
+		Model				"warrior_god.GR2"
+		SourceSkin			"corazzadivina.tga"
+		TargetSkin			"corazzadivina.tga"
+	}
+	Group ShapeData1140
+	{	
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		ShapeIndex			458
+		Model				"wuzhein_warrior_male.GR2"
+		SourceSkin			"wuzhein_warrior_male_armor.dds"
+		TargetSkin			"wuzhein_warrior_male_armor.dds"
+		SourceSkin2			"wuzhein_warrior_male_body.dds"
+		TargetSkin2			"wuzhein_warrior_male_body.dds"
+	}
+	Group ShapeData1141
+	{	
+		SpecialPath			"d:/ymir work/pc/warrior/"
+		ShapeIndex			459
+		Model				"warrior_1152.GR2"
+	}
+	Group ShapeData1142
+	{	
+		SpecialPath			"d:/ymir work/pc/warrior/"
+		ShapeIndex			470
+		Model				"baso_arcobaleno_war_m.GR2"
+	}
+	Group ShapeData1143
+	{	
+		SpecialPath			"d:/ymir work/pc/warrior/"
+		ShapeIndex			471
+		Model				"baso_millennare_war_m.GR2"
+	}
+	Group ShapeData1144
+	{	
+		SpecialPath			"d:/ymir work/pc/warrior/"
+		ShapeIndex			472
+		Model				"basobad_finale_war_m.GR2"
+	}
+	Group ShapeData1145
+	{	
+		SpecialPath			"d:/ymir work/textures/minoarmorset/"
+		
+		ShapeIndex			473
+		Model				"male_mino_warrior.gr2"
+		SourceSkin			"mino_armor_male.dds"
+		TargetSkin			"mino_armor_male.dds"
+	}
+	Group ShapeData1146
+	{
+		SpecialPath			"d:/ymir Work/pc/warrior/"
+		
+		ShapeIndex			474
+		Model				"warrior_lordcopy.GR2"
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"warrior_king02.dds"
 	}
 }
 

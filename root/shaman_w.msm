@@ -788,7 +788,7 @@ Group ShapeData
 {
 	PathName	"d:/ymir Work/pc/shaman/"
 
-	ShapeDataCount				999
+	ShapeDataCount				5000
 
 	Group ShapeData00
 	{
@@ -2276,6 +2276,287 @@ Group ShapeData
 	{
 		ShapeIndex			62599
 		Model				"boxrux.GR2"
+	}
+	Group ShapeData1107
+	{
+		ShapeIndex			450
+		Model				"shaman_4-1.gr2"
+		SourceSkin			"shaman_4-1.dds"	
+		TargetSkin			"shaman_4-3.dds"
+	}
+	Group ShapeData1108
+	{
+		ShapeIndex			462
+		Model				"shaman_cheongnang.GR2"
+		SourceSkin			"shaman_cheongnang.DDS"
+		TargetSkin			"shaman_bihong_e01.dds"
+	}
+	Group ShapeData1109
+	{
+		ShapeIndex			461
+		Model				"shaman_cheongnang.GR2"
+		SourceSkin			"shaman_cheongnang.DDS"
+		TargetSkin			"shaman_nabong_e01.dds"
+	}
+	Group ShapeData1110
+	{
+		ShapeIndex			440
+		Model				"shaman_4-1.gr2"
+		SourceSkin			"shaman_4-1.dds"	
+		TargetSkin			"shaman_4_4.dds"
+	}
+	Group ShapeData1111
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			432	
+		Model				"shaman_lordcopy.GR2"	
+		SourceSkin			"shaman_queen01.dds"
+		TargetSkin			"holy_schamane_king01.dds"	
+	}
+	Group ShapeData1112
+	{
+		ShapeIndex			441
+		Model				"shaman_4-1.gr2"
+		SourceSkin			"shaman_4-1.dds"	
+		TargetSkin			"shaman_e4_1.dds"
+	}
+	Group ShapeData1113
+	{
+		ShapeIndex			460
+		Model				"shaman_cheongnang.GR2"
+		SourceSkin			"shaman_cheongnang.dds"
+		TargetSkin			"shaman_cheongnang_e01.dds"
+	}
+	Group ShapeData1114
+	{
+		ShapeIndex			463
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_miyeom_e01.dds"
+	}
+	Group ShapeData1115
+	{
+		ShapeIndex			464
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_seocheon_e01.dds"
+	}
+	Group ShapeData1116
+	{
+		ShapeIndex			465
+		Model				"shaman_miyeom.GR2"
+		SourceSkin			"shaman_miyeom.dds"
+		TargetSkin			"shaman_ilseon_e01.dds"
+	}
+	Group ShapeData1117
+	{
+		ShapeIndex			466
+		Model				"shaman_cheonryun.GR2"
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_cheonryun_e01.dds"
+	}
+	Group ShapeData1118
+	{
+		ShapeIndex			467
+		Model				"shaman_cheonryun.GR2"
+		SourceSkin			"shaman_cheonryun.dds"
+		TargetSkin			"shaman_amyo_e01.dds"
+	}
+	Group ShapeData1119
+	{
+		ShapeIndex			468
+		Model				"shaman_bongsin.GR2"
+		SourceSkin			"shaman_bongsin.dds"
+		TargetSkin			"shaman_bongsin_e01.dds"
+	}
+	Group ShapeData1120
+	{
+		ShapeIndex			469
+		Model				"shaman_4-1.GR2"
+		SourceSkin			"shaman_4-1.dds"
+		TargetSkin			"shaman_4-1_e01.dds"
+	}
+	Group ShapeData1121
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			434	
+		Model				"shaman_lordcopy.GR2"	
+		SourceSkin			"shaman_queen01.dds"
+		TargetSkin			"shaman_queen03.dds"	
+	}
+	Group ShapeData1122
+	{
+		ShapeIndex			442
+		Model				"shaman_4-1.GR2"
+		SourceSkin			"shaman_4-1.dds"
+		TargetSkin			"shaman_4_5.dds"
+	}
+	Group ShapeData1123
+	{
+		ShapeIndex			443
+		Model				"shaman_4-1.GR2"
+		SourceSkin			"shaman_4-1.dds"
+		TargetSkin			"shaman_4_6.dds"
+	}
+	Group ShapeData1124
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			444	
+		Model				"shaman_lordcopy.GR2"	
+		SourceSkin			"shaman_queen01.dds"
+		TargetSkin			"holy_schamane_king02.dds"	
+	}
+	Group ShapeData1125
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			445	
+		Model				"shaman_lordcopy.GR2"	
+		SourceSkin			"shaman_queen01.dds"
+		TargetSkin			"shaman_baijin.dds"	
+	}
+	Group ShapeData1126
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			446	
+		Model				"shaman_lordcopy.GR2"	
+		SourceSkin			"shaman_queen01.dds"
+		TargetSkin			"shaman_huangjin.dds"	
+	}
+	Group ShapeData1127
+	{
+		ShapeIndex			447
+		Model				"shaman_4-1.gr2"
+		SourceSkin			"shaman_4-1.dds"	
+		TargetSkin			"shaman_4_7.dds"
+	}
+	Group ShapeData1128
+	{
+		ShapeIndex			448
+		Model				"shaman_4-1.gr2"
+		SourceSkin			"shaman_4-1.dds"	
+		TargetSkin			"shaman_4_8.dds"
+	}
+	Group ShapeData1129
+	{
+		ShapeIndex			449
+		Model				"shaman_4-1.gr2"
+		SourceSkin			"shaman_4-1.dds"	
+		TargetSkin			"shaman_4_9.tga"
+	}
+	Group ShapeData1130
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			451	
+		Model				"shaman_m2m.GR2"	
+		SourceSkin			"shaman_m2m.tga"
+		TargetSkin			"shaman_m2m.tga"	
+	}
+	Group ShapeData1131
+	{
+		SpecialPath			"d:/ymir Work/item/shamifem/"
+
+		ShapeIndex			452	
+		Model				"shamyf_phill_infinitymetin.GR2"	
+	}
+	Group ShapeData1132
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+		
+		ShapeIndex			453
+		Model				"shaman_4-1.gr2"
+		SourceSkin			"shaman_4-1.dds"	
+		TargetSkin			"shaman_4_10.dds"
+	}
+	Group ShapeData1133
+	{
+		SpecialPath			"d:/ymir work/pc/shaman/"
+
+		ShapeIndex			454	
+		Model				"shaman_uni_1.GR2"	
+	}
+	Group ShapeData1134
+	{
+		SpecialPath			"d:/ymir work/pc/shaman/"
+
+		ShapeIndex			455	
+		Model				"shaman_uni_2.GR2"	
+	}
+	Group ShapeData1135
+	{
+		SpecialPath			"d:/ymir work/pc/shaman/"
+
+		ShapeIndex			456	
+		Model				"shaman_120.GR2"	
+	}
+	Group ShapeData1136
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+		
+		ShapeIndex			457
+		Model				"shaman_god.gr2"
+		SourceSkin			"shaman_god.tga"	
+		TargetSkin			"shaman_god.tga"
+	}
+	Group ShapeData1137
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+		
+		ShapeIndex			458
+		Model				"wu_zein_shaman_girl.gr2"
+		SourceSkin			"wuzhein_shaman_female.dds"	
+		TargetSkin			"wuzhein_shaman_female.dds"
+	}
+	Group ShapeData1138
+	{
+		SpecialPath			"d:/ymir work/pc/shaman/"
+
+		ShapeIndex			459	
+		Model				"shaman_1152.GR2"	
+	}
+	Group ShapeData1139
+	{
+		SpecialPath			"d:/ymir work/pc/shaman/"
+
+		ShapeIndex			470	
+		Model				"baso_arcobaleno_shamy_f.GR2"	
+	}
+	Group ShapeData1140
+	{
+		SpecialPath			"d:/ymir work/pc/shaman/"
+
+		ShapeIndex			471	
+		Model				"baso_millennare_shamy_f.GR2"	
+	}
+	Group ShapeData1141
+	{
+		SpecialPath			"d:/ymir work/pc/shaman/"
+
+		ShapeIndex			472	
+		Model				"basobad_finale_shamy_f.GR2"	
+	}
+	Group ShapeData1142
+	{
+		SpecialPath			"d:/ymir work/textures/minoarmorset/"
+		
+		ShapeIndex			473
+		Model				"female_mino_shaman.gr2"
+		SourceSkin			"mino_armor_female.dds"	
+		TargetSkin			"mino_armor_female.dds"
+	}
+	Group ShapeData1143
+	{
+		SpecialPath			"d:/ymir Work/pc/shaman/"
+
+		ShapeIndex			474
+		Model				"shaman_lordcopy.GR2"	
+		SourceSkin			"shaman_queen01.dds"
+		TargetSkin			"shaman_queen02.dds"
 	}
 }
 Group AttachingData

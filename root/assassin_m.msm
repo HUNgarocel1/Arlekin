@@ -712,7 +712,7 @@ Group ShapeData
 {
 	PathName	"d:/ymir Work/pc2/assassin/"
 
-	ShapeDataCount				999
+	ShapeDataCount				5000
 
 	Group ShapeData00
 	{
@@ -2337,6 +2337,275 @@ Group ShapeData
 		Model				"assassin_6_1.GR2"
 		SourceSkin			"assassin_6_1.dds"
 		TargetSkin			"assassin_6_15.dds"
+	}
+	Group ShapeData1107
+	{
+		ShapeIndex			450
+		Model				"assassin_4-1.gr2"
+		SourceSkin			"assassin_4-1.dds"	
+		TargetSkin			"assassin_4-3.dds"
+	}
+	Group ShapeData1108
+	{
+		ShapeIndex			461
+		Model				"assassin_tanma.GR2"
+		SourceSkin			"assassin_tanma.DDS"
+		TargetSkin			"assassin_geukseom_e01.dds"
+	}
+	Group ShapeData1109
+	{
+		ShapeIndex			460
+		Model				"assassin_tanma.GR2"
+		SourceSkin			"assassin_tanma.DDS"
+		TargetSkin			"assassin_tanma_e01.dds"
+	}
+	Group ShapeData1110
+	{
+		ShapeIndex			440
+		Model				"assassin_4-1.gr2"
+		SourceSkin			"assassin_4-1.dds"	
+		TargetSkin			"assassin_4_4.dds"
+	}
+	Group ShapeData1111
+	{	
+		ShapeIndex			432			
+		Model				"assassin_lordcopy.GR2"
+		SourceSkin			"assassin_queen01.dds"
+		TargetSkin			"holy_ninja_king01.dds"
+	}
+	Group ShapeData1112
+	{
+		ShapeIndex			441
+		Model				"assassin_4-1.gr2"
+		SourceSkin			"assassin_4-1.dds"	
+		TargetSkin			"assassin_e4_1.dds"
+	}
+	Group ShapeData1113
+	{
+		ShapeIndex			462
+		Model				"assassin_tanma.GR2"
+		SourceSkin			"assassin_tanma.DDS"
+		TargetSkin			"assassin_dahong_e01.dds"
+	}
+	Group ShapeData1114
+	{
+		ShapeIndex			463
+		Model				"assassin_biyeong.GR2"
+		SourceSkin			"assassin_biyeong.DDS"
+		TargetSkin			"assassin_biyeong_e01.DDS"
+	}
+	Group ShapeData1115
+	{
+		ShapeIndex			464
+		Model				"assassin_biyeong.GR2"
+		SourceSkin			"assassin_biyeong.DDS"
+		TargetSkin			"assassin_yeongrin_e01.DDS"
+	}
+	Group ShapeData1116
+	{
+		ShapeIndex			465
+		Model				"assassin_biyeong.GR2"
+		SourceSkin			"assassin_biyeong.DDS"
+		TargetSkin			"assassin_jeoksal_e01.DDS"
+	}
+	Group ShapeData1117
+	{
+		ShapeIndex			466
+		Model				"assassin_yonga.GR2"
+		SourceSkin			"assassin_yonga.DDS"
+		TargetSkin			"assassin_yonga_e01.DDS"
+	}
+	Group ShapeData1118
+	{
+		ShapeIndex			467
+		Model				"assassin_yonga.GR2"
+		SourceSkin			"assassin_yonga.DDS"
+		TargetSkin			"assassin_salpung_e01.DDS"
+	}
+	Group ShapeData1119
+	{
+		ShapeIndex			468
+		Model				"assassin_bihyeon.GR2"
+		SourceSkin			"assassin_bihyeon.DDS"
+		TargetSkin			"assassin_bihyeon_e01.DDS"
+	}
+	Group ShapeData1120
+	{
+		ShapeIndex			469
+		Model				"assassin_4-1.GR2"
+		SourceSkin			"assassin_4-1.DDS"
+		TargetSkin			"assassin_4-1_e01.DDS"
+	}
+	Group ShapeData1121
+	{	
+		ShapeIndex			434			
+		Model				"assassin_lordcopy.GR2"
+		SourceSkin			"assassin_queen01.dds"
+		TargetSkin			"assassin_queen03.dds"
+	}
+	Group ShapeData1122
+	{
+		ShapeIndex			442
+		Model				"assassin_4-1.GR2"
+		SourceSkin			"assassin_4-1.DDS"
+		TargetSkin			"assassin_4_5.DDS"
+	}
+	Group ShapeData1123
+	{
+		ShapeIndex			443
+		Model				"assassin_4-1.GR2"
+		SourceSkin			"assassin_4-1.DDS"
+		TargetSkin			"assassin_4_6.DDS"
+	}
+	Group ShapeData1124
+	{	
+		ShapeIndex			444			
+		Model				"assassin_lordcopy.GR2"
+		SourceSkin			"assassin_queen01.dds"
+		TargetSkin			"holy_ninja_king02.dds"
+	}
+	Group ShapeData1125
+	{	
+		ShapeIndex			445			
+		Model				"assassin_lordcopy.GR2"
+		SourceSkin			"assassin_queen01.dds"
+		TargetSkin			"assassin_baijin.dds"
+	}
+	Group ShapeData1126
+	{	
+		ShapeIndex			446			
+		Model				"assassin_lordcopy.GR2"
+		SourceSkin			"assassin_queen01.dds"
+		TargetSkin			"assassin_huangjin.dds"
+	}
+	Group ShapeData1127
+	{
+		ShapeIndex			447
+		Model				"assassin_4-1.GR2"
+		SourceSkin			"assassin_4-1.DDS"
+		TargetSkin			"assassin_4_7.DDS"
+	}
+	Group ShapeData1128
+	{
+		ShapeIndex			448
+		Model				"assassin_4-1.GR2"
+		SourceSkin			"assassin_4-1.DDS"
+		TargetSkin			"assassin_4_8.DDS"
+	}
+	Group ShapeData1129
+	{
+		ShapeIndex			449
+		Model				"assassin_4-1.GR2"
+		SourceSkin			"assassin_4-1.DDS"
+		TargetSkin			"assassin_4_9.tga"
+	}
+	Group ShapeData1130
+	{
+		ShapeIndex			451	
+		Model				"ninjamalem2m.GR2"
+		SourceSkin			"asassinmalem2m.dds"
+		TargetSkin			"asassinmalem2m.dds"
+	}
+	Group ShapeData1131
+	{
+		SpecialPath			"d:/ymir Work/item/ninjamaschio/"
+
+		ShapeIndex			452	
+		Model				"ninjam_infinitymetin.GR2"
+	}
+	Group ShapeData1132
+	{
+		SpecialPath			"d:/ymir Work/pc2/assassin/"
+		
+		ShapeIndex			453
+		Model				"assassin_4-1.GR2"
+		SourceSkin			"assassin_4-1.DDS"
+		TargetSkin			"assassin_4_10.DDS"
+	}
+	Group ShapeData1133
+	{
+		SpecialPath			"d:/ymir work/pc2/assassin/"
+
+		ShapeIndex			454	
+		Model				"assassin_uni_1.GR2"
+	}
+	Group ShapeData1134
+	{
+		SpecialPath			"d:/ymir work/pc2/assassin/"
+
+		ShapeIndex			455	
+		Model				"assassin_uni_2.GR2"
+	}
+	Group ShapeData1135
+	{
+		SpecialPath			"d:/ymir work/pc2/assassin/"
+
+		ShapeIndex			456	
+		Model				"assassin_120.GR2"
+	}
+	Group ShapeData1136
+	{
+		SpecialPath			"d:/ymir Work/pc2/assassin/"
+		
+		ShapeIndex			457
+		Model				"assassin_god.GR2"
+		SourceSkin			"assassin_godpc2.TGA"
+		TargetSkin			"assassin_godpc2.TGA"
+	}
+	Group ShapeData1137
+	{
+		SpecialPath			"d:/ymir Work/pc2/assassin/"
+		
+		ShapeIndex			458
+		Model				"wuzninjamale1.GR2"
+		SourceSkin			"wu_zein_ninja_male.DDS"
+		TargetSkin			"wu_zein_ninja_male.DDS"
+	}
+	Group ShapeData1138
+	{
+		SpecialPath			"d:/ymir work/pc2/assassin/"
+
+		ShapeIndex			459	
+		Model				"assassin_1152.GR2"
+	}
+	Group ShapeData1139
+	{
+		SpecialPath			"d:/ymir work/pc2/assassin/"
+
+		ShapeIndex			470	
+		Model				"baso_arcobaleno_ninja_m.GR2"
+	}
+	Group ShapeData1140
+	{
+		SpecialPath			"d:/ymir work/pc2/assassin/"
+
+		ShapeIndex			471	
+		Model				"baso_millennare_ninja_m.GR2"
+	}
+	Group ShapeData1141
+	{
+		SpecialPath			"d:/ymir work/pc2/assassin/"
+
+		ShapeIndex			472	
+		Model				"basobad_finale_ninja_m.GR2"
+	}
+	Group ShapeData1142
+	{
+		SpecialPath			"d:/ymir work/textures/minoarmorset/"
+		
+		ShapeIndex			473
+		Model				"male_mino_assassin.GR2"
+		SourceSkin			"mino_armor_male.DDS"
+		TargetSkin			"mino_armor_male.DDS"
+	}
+	Group ShapeData1143
+	{
+		SpecialPath			"d:/ymir Work/pc2/assassin/"
+		
+		ShapeIndex			474			
+		Model				"assassin_lordcopy.GR2"
+		SourceSkin			"assassin_queen01.dds"
+		TargetSkin			"assassin_queen02.dds"
 	}
 }
 
