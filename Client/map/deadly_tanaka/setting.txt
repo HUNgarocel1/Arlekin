@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	4	5
+BasePosition	8391500	2591700
+TextureSet	textureset\easter2017.txt
+Environment	tanaka.msenv
+
