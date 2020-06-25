@@ -1,0 +1,10 @@
+<ScriptFile>
+	<CreateEterPack ArchivePath="../Metin2/pack/bgm" BuildKeyfile="false" >
+		<File ArchivedPath="bgm/characterselect.mp3"><![CDATA[../Client/bgm/characterselect.mp3]]></File>
+		<File ArchivedPath="bgm/desert.mp3"><![CDATA[../Client/bgm/desert.mp3]]></File>
+		<File ArchivedPath="bgm/login_window.mp3"><![CDATA[../Client/bgm/login_window.mp3]]></File>
+		<File ArchivedPath="bgm/m2bg.mp3"><![CDATA[../Client/bgm/m2bg.mp3]]></File>
+		<File ArchivedPath="bgm/moon_cave.mp3"><![CDATA[../Client/bgm/moon_cave.mp3]]></File>
+		<File ArchivedPath="bgm/wedding.mp3"><![CDATA[../Client/bgm/wedding.mp3]]></File>
+	</CreateEterPack>
+</ScriptFile>
