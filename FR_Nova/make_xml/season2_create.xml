@@ -1,5 +1,0 @@
-<ScriptFile>
-	<CreateEterPackXml Input="../Client/season2/:season2/" ArchivePath="../Metin2/pack/season2" XmlPath="xml/season2_create.xml">
-		<Ignore Pattern="[a-zA-z0-9]+.psd" />
-	</CreateEterPackXml>
-</ScriptFile>

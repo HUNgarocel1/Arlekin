@@ -1,4 +1,0 @@
-<ScriptFile>
-	<CreateEterPackXml Input="../Client/map/:" ArchivePath="../Metin2/pack/map" XmlPath="xml/map_create.xml">
-	</CreateEterPackXml>
-</ScriptFile>
