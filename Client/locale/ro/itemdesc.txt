@@ -346,7 +346,7 @@
 30197	Mágikus magvak	Ezek a magvak duzzadnak az életerõtõl.
 30198	Víztiszta kristály	Egy sötét jégteremtmény szíve.
 30199	Kék kristály	Egy kristálydarab a Sárkány Templomából, mely felerõsíti a sötét erõket.
-30210	Drágakõ darab	Egy kõ ami kristálytiszta és csillog a fényben.
+30210	Drágakõ darab	Egy kõ ami kristálytiszta és csillog a fényben..
 30211	Drágakõ darab	Csillogó kicsi kõ.
 30212	Drágakõ darab	Csillogó kicsi kõ.
 30213	Drágakõ darab	Csillogó kicsi kõ.
