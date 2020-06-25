@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	1	1
+BasePosition	1167600	1334000
+TextureSet	textureset\metin2_arena.txt
+Environment	a1.msenv
+

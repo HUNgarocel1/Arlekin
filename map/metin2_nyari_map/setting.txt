@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	2	2
+BasePosition	51000	51000
+TextureSet	textureset\metin2_devilrun.txt
+Environment	A1.msenv
+
