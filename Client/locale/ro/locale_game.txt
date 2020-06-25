@@ -93,7 +93,7 @@ ADMIN_MANAGER_BAN_TYPE_DESCRIPTION_1	Fiókja véglegesen zárolva van.
 ADMIN_MANAGER_BAN_TYPE_DESCRIPTION_2	Minden olyan fiókot, amely rendelkezik az ip-vel, véglegesen betiltjuk.
 ADMIN_MANAGER_BAN_TYPE_DESCRIPTION_3	Fiókját korlátozott ideig blokkoljuk.
 ADMIN_MANAGER_BAN_TYPE_1	Ban állandó
-ADMIN_MANAGER_BAN_TYPE_2	Ban ip
+ADMIN_MANAGER_BAN_TYPE_2	Ban IP
 ADMIN_MANAGER_BAN_TYPE_3	Ban korlátozott
 BIOLOG_APPEND_1	test1
 BIOLOG_APPEND_2	test2
